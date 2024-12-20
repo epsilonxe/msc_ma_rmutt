@@ -1,0 +1,140 @@
+09112501
+การวิเคราะห์เชิงฟังก์ชัน
+Functional analysis
+3(3-0-6)
+ปริภูมิเมตริก ปริภูมินอร์ม ปริภูมิบานาค ตัวดำเนินการเชิงเส้น ปริภูมิผลคูณภายในและปริภูมิฮิลเบิร์ต ทฤษฎีบทฮาห์น-บานาค ทฤษฎีบทการมีขอบเขตแบบเอกรูป ปริภูมิคู่กัน
+Metric space, normed space, Banach spaces, linear operator, inner product and Hilbert spaces, Hahn-Banach theorem, uniform boundedness theorem, dual space
+
+09112502
+วิธีการทางคณิตศาสตร์สำหรับวิทยาศาสตร์
+Mathematical methods for science
+3(3-0-9)
+ฟังก์ชันพิเศษ ปัญหาค่าเริ่มต้น การแปลงลาปลาซ ผลเฉลยแบบอนุกรม ปัญหาค่าขอบเชิงเส้น ปัญหาค่าเฉพาะ อนุกรมฟูเรียร์ ทฤษฎีสตูร์ม-ลีอูวีล การกระจายฟังก์ชันเฉพาะ ฟังก์ชันของกรีน ทฤษฎีเสถียรภาพ ฟังก์ชันลีอาพูนอฟ แคลคูลัสเชิงเศษส่วนเบื้องต้น การประยุกต์กับปัญหาทางวิทยาศาสตร์
+Special functions, initial value problem, Laplace transform, series solution, boundary value problem, eigenvalue problem, Fourier series, Sturm-Liouville theory, eigenfunction expansion, Green’s function, stability theory, Lyapunov function, introduction to fractional calculus, applications to science problems
+
+09112604
+สมการเชิงอนุพันธ์และระบบพลวัต
+Differential equation and dynamical system
+3(3-0-6)
+ทฤษฎีบทการมีอยู่จริงและมีเพียงหนึ่งเดียวของผลเฉลย ระบบเชิงอนุพันธ์เชิงเส้นและไม่เชิงเส้น ระบบออโตโนมัส จุดดุลยภาพของระบบสมการไม่เชิงเส้น เสถียรภาพของผลเฉลย การวิเคราะห์ไบเฟอร์เคชัน การทำให้เป็นเชิงเส้น
+Existence and uniqueness theorem of solution, linear and nonlinear differential system, autonomous system, equilibrium point of nonlinear system equation, stability of solution, bifurcation analysis, linearization
+
+09112605
+สมการเชิงอนุพันธ์เศษส่วน
+Fractional differential equations
+3(3-0-6)
+ฟังก์ชันพิเศษ แคลคูลัสเชิงเศษส่วน การแปลงปริพันธ์ของปริพันธ์และอนุพันธ์เชิงเศษส่วน สมการเชิงอนุพันธ์เชิงเศษส่วนเชิงเส้นและไม่เชิงเส้น ระบบเศษส่วนของสมการเชิงอนุพันธ์ 
+Special functions, fractional calculus, Integral transform of fractional integral and derivative, linear and nonlinear fractional differential equations, fractional system of differential equation
+
+09112606
+สมการเชิงปริพันธ์
+Integral equation
+3(3-0-6)
+สมการปริพันธ์เฟรดโฮล์ม เคอเนลแบบทั่วไปและแบบเฮลมินตัน สมการปริพันธ์โวเทอร์รา สมการเชิงอนุพันธ์และสมการปริพันธ์เชิงอนุพันธ์ สมการปริพันธ์ไม่เชิงเส้น สมการปริพันธ์เอกฐาน ระบบเชิงเส้นและไม่เชิงเส้นของสมการปริพันธ์
+Fredholm integral equation, general and Hermitian kernels, Voltera integral equation, differential equation and integral-differential equation, nonlinear integral equation, singular integral equation, linear and nonlinear systems of integral equation
+
+09112502
+ทฤษฎีจุดตรึงและการประยุกต์
+Fixed point theory and applications
+3(3-0-6)
+ทฤษฎีจุดตรึงในปริภูมิเมตริก ทฤษฎีจุดตรึงในปริภูมิฮิลเบิร์ต ทฤษฎีจุดตรึงในปริภูมิบานาค การทำซ้ำเพื่อหาจุดตรึง
+Fixed point theory in metric space, fixed point theory in Hilbert space, fixed point theory in Banach space, fixed point iteration
+
+09112607
+วิธีเชิงคำนวณสำหรับสมการเชิงอนุพันธ์
+Computational method for differential equation
+3(3-0-6)
+ผลเฉลยเชิงตัวเลขของสมการเชิงอนุพันธ์เชิงเส้นและไม่เชิงเส้น การแปลงอนุพันธ์และการแปลงอินทิกรัลเพื่อหาผลเฉลยของสมการเชิงอนุพันธ์; วิธีวิเคราะห์โฮโมโทฟี; วิธีแยกส่วน
+Solution of linear and nonlinear differential equation, differential transform and integral transform for solution of differential equation, homotopy analysis method, decomposition method
+
+09112503
+ขั้นตอนวิธีเชิงตัวเลขสำหรับค่าเหมาะที่สุด
+Numerical algorithm for optimization
+3(3-0-6)
+ทฤษฎีค่าเหมาะที่สุดในปริภูมิฮิลเบิร์ตและปริภูมิบานาค ขั้นตอนวิธีสำหรับจุดตรึง วิธีอินเนอร์เทียล ปัญหาอสมการเชิงแปรผัน ปัญหาดุลยภาพ ปัญหารวมแบบกึ่ง ปัญหาเป็นไปได้แบบแยก การสร้างขั้นตอนวิธีเพื่อหาผลเฉลยปัญหาค่าเหมาะที่สุด
+Optimization in Hilbert and Banach spaces, algorithm for fixed point, inertial method, variational inequality problem, equilibrium problem, quasi-inclusion problem, split feasibility problem, construction algorithm for solution of optimization problems
+
+09112608
+วิธีเชิงตัวเลขสำหรับสมการเชิงอนุพันธ์สามัญ
+Numerical methods for ordinary differential equations
+3(3-0-6)
+ปัญหาค่าเริ่มต้น วิธีขั้นเดียว วิธีหลายขั้นเชิงเส้น วิธีกาเลอร์คิน ปัญหาค่าขอบ วิธีผลต่างอันตะ
+Initial value problems, one-step methods, linear multistep methods, Galerkin method, Boundary value problems, finite difference method
+
+09112609
+สมการเชิงอนุพันธ์ย่อย
+Partial differential equations 
+3(3-0-6)
+แนวคิดเบื้องต้น สมการเชิงอนุพันธ์ย่อยอันดับหนึ่ง การจำแนกสมการเชิงอนุพันธ์ย่อยอันดับสอง ปัญหาค่าขอบและปัญหาค่าเริ่มต้น สมการพาราโบลิก สมการไฮเพอร์โบลิก สมการอิลิปติก
+Basic concepts, first order partial differential equations, classification of second order equations, boundary and initial value problems, parabolic equations, hyperbolic equations, elliptic equations
+
+09112610
+วิธีเชิงตัวเลขสำหรับสมการเชิงอนุพันธ์ย่อย
+Numerical Methods for Partial Differential Equations 
+3(3-0-6)
+บทนำสำหรับสมการเชิงอนุพันธ์ย่อย วิธีผลต่างอันตะสำหรับปัญหาในรูปแบบเชิงวงรี วิธีสมาชิกจำกัดสำหรับปัญหาในรูปแบบเชิงวงรี วิธีเชิงตัวเลขสำหรับปัญหาใน รูปแบบพาราโบลา ขั้นตอนสำหรับวิธีเชิงตัวเลขของปัญหาในรูปแบบไฮเพอร์โบลา
+Introduction to partial differential equations, finite difference method for elliptic problems, finite element methods for elliptic problems, numerical methods for parabolic problems, procedure for numerical methods for hyperbolic problems
+
+09112611
+การสร้างภาพข้อมูล
+Data Visualization
+3(2-2-5)
+แนวคิดพื้นฐานและหลักการของการสร้างภาพข้อมูล การเลือกใช้แผนภูมิและกราฟที่เหมาะสม เครื่องมือและเทคนิคการแสดงผลข้อมูลแบบโต้ตอบ การปรับแต่งรูปแบบการนำเสนอเพื่อการสื่อสารอย่างมีประสิทธิภาพ และการประยุกต์ใช้ในการวิเคราะห์ข้อมูลขนาดใหญ่
+fundamental concepts and principles of data visualization, selecting appropriate charts and graphs, interactive data visualization tools and techniques, customizing presentation formats for effective communication, and applications in big data analytics
+
+09112612
+การออกแบบและวิเคราะห์ขั้นตอนวิธี
+Algorithm design and analysis
+3(2-2-5)
+ความซับซ้อนของขั้นตอนวิธี การวิเคราะห์กรณีเฉลี่ยและกรณีสูงสุด การจัดอันดับ ค่าสูงสุดและค่าต่ำสุดในกลุ่ม ขั้นตอนวิธีกราฟ กำหนดการพลวัต ขั้นตอนวิธีพหุนามเวลา ขั้นตอนวิธีเอ็นพี ความบริบูรณ์เอ็นพี และขั้นตอนวิธีแบบขนาน
+Complexity of algorithm; analysis of mean and maximum cases, ordering, maximum and minimum in group, graph algorithm, dynamic programming, polynomial-time algorithm, NP algorithm, NP completeness and parallel algorithm
+
+09112613
+การเรียนรู้ของเครื่อง
+Machine Learning
+3(2-2-5)
+แนวคิดพื้นฐานของการเรียนรู้ของเครื่อง การจำแนกและการถดถอย อัลกอริทึมการเรียนรู้แบบมีผู้สอนและไม่มีผู้สอน การคัดเลือกคุณลักษณะ การประเมินแบบจำลอง การปรับแต่งพารามิเตอร์ การประยุกต์ใช้งานในงานวิเคราะห์ข้อมูล การประมวลผลภาษาธรรมชาติ และการเรียนรู้เชิงลึกเบื้องต้น
+fundamental concepts of machine learning, classification and regression, supervised and unsupervised learning algorithms, feature selection, model evaluation, parameter tuning, applications in data analytics, natural language processing, introductory deep learning
+
+09112614
+การเรียนรู้เชิงลึก
+Deep learning
+3(2-2-5)
+พื้นฐานเครือข่ายประสาทเทียม การเรียนรู้แบบป้อนหน้าและการแพร่กลับ การใช้งานเฟรมเวิร์กเช่น TensorFlow หรือ PyTorch เครือข่ายประสาทแบบคอนโวลูชัน เครือข่ายประสาทแบบหมุนเวียน เทคนิคป้องกันการฟิตเกิน การปรับจูนไฮเปอร์พารามิเตอร์ การประยุกต์ใช้ในการประมวลผลภาพ และการประมวลผลภาษาธรรมชาติ
+fundamentals of neural networks, feed-forward and backpropagation learning, implementation with frameworks such as TensorFlow or PyTorch, convolutional neural networks, recurrent neural networks, techniques to prevent overfitting, hyperparameter tuning, applications in image processing, and natural language processing
+
+09112615
+การเรียนรู้แบบเสริมกำลัง
+Reinforcement Learning
+3(2-2-5)
+แนวคิดพื้นฐานในการเรียนรู้แบบเสริมกำลัง การแทนสถานะ ผลตอบแทน และนโยบาย ฟังก์ชันมูลค่าและสมการเบลล์ Q-learning และ SARSA วิธีการควบคุมนโยบาย การประมาณค่าฟังก์ชันด้วยเครือข่ายประสาทเทียม อัลกอริทึมการเสริมกำลังเชิงลึก การประยุกต์ใช้ในงานเกมและหุ่นยนต์
+fundamental concepts of reinforcement learning, states returns and policies, value functions and Bellman equations, Q-learning and SARSA, policy-based methods, function approximation with neural networks, deep reinforcement learning algorithms, applications in gaming and robotics
+
+09112616
+แบบจำลองภาษาขนาดใหญ่
+Large Language Models
+3(2-2-5)
+แนวคิดพื้นฐานของแบบจำลองภาษาขนาดใหญ่ การเรียนรู้เชิงลึกก่อนการฝึก การนำแบบจำลองที่ผ่านการฝึกไปประยุกต์ใช้ การทำความเข้าใจกลไกตัวถอดรหัสแบบทรานส์ฟอร์มเมอร์ พารามิเตอร์ขนาดใหญ่ การสร้างข้อความต่อเนื่อง การประมวลผลภาษาธรรมชาติขั้นสูง จริยธรรมและความรับผิดชอบในการใช้งานแบบจำลองภาษาขนาดใหญ่
+fundamental concepts of large language models, deep pre-training, fine-tuning, understanding transformer-based decoders, large-scale parameters, continuous text generation, advanced natural language processing, ethics and responsible usage of large language models
+
+09112617
+การประมวลผลภาพ  
+Image Processing
+3(2-2-5)
+แนวคิดพื้นฐานของการประมวลผลภาพ ระบบรับรู้ภาพดิจิทัล การปรับปรุงภาพ การกรองภาพเชิงพื้นที่และเชิงความถี่ การแบ่งส่วนภาพ การตรวจจับขอบและคุณลักษณะ เทคนิคลดสัญญาณรบกวน การบีบอัดภาพ และการประยุกต์ใช้ในด้านต่าง ๆ เช่น การตรวจจับวัตถุ การจดจำรูปแบบ และการวิเคราะห์ทางการแพทย์  
+fundamental concepts of image processing, digital image acquisition, image enhancement, spatial and frequency domain filtering, image segmentation, edge and feature detection, noise reduction techniques, image compression, and applications in object detection, pattern recognition, and medical imaging
+
+09112618
+การจำแนกภาพ
+Image Classification
+3(2-2-5)
+แนวคิดพื้นฐานของการจำแนกภาพ การประมวลผลข้อมูลภาพเบื้องต้น การสกัดคุณลักษณะจากภาพ อัลกอริทึมการจัดกลุ่มและจำแนกภาพ การใช้เครือข่ายประสาทเทียมแบบคอนโวลูชันสำหรับการจำแนกภาพ การปรับแต่งและปรับปรุงความแม่นยำ การประยุกต์ใช้ในด้านต่าง ๆ เช่น การแพทย์ อุตสาหกรรม และงานด้านความปลอดภัย
+fundamental concepts of image classification, basic image preprocessing, feature extraction from images, image clustering and classification algorithms, convolutional neural networks for image classification, model fine-tuning and accuracy improvement, applications in fields such as medicine, industry, and security
+
+09112619
+หัวข้อพิเศษทางด้านวิทยาศาตร์เชิงคำนวณ
+Special topics in computational science
+3(2-2-5)
+หัวข้อครอบคลุมพัฒนาการร่วมสมัยในเรื่องที่เกี่ยวกับวิทยาศาตร์เชิงคำนวณ
+Typical content includes contemporary development in computational science.
+

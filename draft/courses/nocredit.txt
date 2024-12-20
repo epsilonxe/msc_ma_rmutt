@@ -1,0 +1,22 @@
+09110501
+คณิตศาสตร์พื้นฐาน
+Mathematics Foundations
+3(3-0-6)
+ฟังก์ชันและกราฟ ทฤษฎีเซตและพื้นฐานตรรกศาสตร์ บทนำสู่การพิสูจน์ ลิมิตและความต่อเนื่อง อนุพันธ์และการประยุกต์ เทคนิคการอินทิเกรตเบื้องต้น ทฤษฎีบทมูลฐานของแคลคูลัส ลำดับและอนุกรม พีชคณิตเชิงเส้นเบื้องต้น การดำเนินการกับเมทริกซ์ ระบบสมการเชิงเส้น ดีเทอร์มิแนนต์
+functions and graphs, set theory and logic fundamentals, introduction to proofs, limits and continuity, derivatives and applications, basic integration techniques, fundamental theorem of calculus, sequences and series, elementary linear algebra, matrix operations, systems of linear equations, determinants
+
+
+09110502
+ความน่าจะเป็นและสถิติพื้นฐาน
+Foundations in Probability and Statistics
+3(3-0-6)
+ความน่าจะเป็นเบื้องต้น ตัวแปรสุ่ม การแจกแจงความน่าจะเป็นแบบไม่ต่อเนื่องและต่อเนื่อง ค่าคาดหมายและความแปรปรวน การสุ่มตัวอย่างและทฤษฎีขีดจำกัดกลาง การประมาณค่าและการทดสอบสมมติฐาน การวิเคราะห์ความแปรปรวน การถดถอยเชิงเส้นเบื้องต้น
+basic probability principles, random variables, discrete and continuous probability distributions, expected values and variance, sampling and the central limit theorem, estimation and hypothesis testing, analysis of variance, introductory linear regression
+
+
+09110503
+การเขียนโปรแกรมเบื้องต้นด้วยภาษาไพธอน
+Programming Fundamentals with Python
+2(2-2-5)
+พื้นฐานการเขียนโปรแกรมด้วยภาษาไพธอน ชนิดข้อมูลและตัวแปร โครงสร้างการควบคุม การใช้ฟังก์ชัน การอ่านและเขียนข้อมูล การดีบัก การเขียนโปรแกรมเชิงวัตถุเบื้องต้น
+basic Python programming concepts, data types and variables, control structures, function usage, input and output operations, debugging, introductory object-oriented programming

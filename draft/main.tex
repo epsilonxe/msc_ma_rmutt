@@ -1,0 +1,48 @@
+\documentclass[11pt]{book}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{thaispec}
+\usepackage{enumitem}
+\usepackage{amssymb, mathtools}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{titlesec}
+
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\renewcommand{\thesection}{\arabic{section}}
+\setlist[itemize]{label=$\text{\rlap{$\large\checkmark$}}\square$}
+\newcolumntype{r}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\titleformat{\chapter}   {\centering\normalfont\Large\bfseries}
+  {หมวดที่ \thechapter}{1em}{} 
+
+\titlespacing*{\chapter}{0pt}{0pt}{30pt} 
+
+
+\newcommand{\thdegree}{วิทยาศาสตรมหาบัณฑิต}
+\newcommand{\thshortdegree}{วท.ม.}
+\newcommand{\thdegreebranch}{วิทยาการเชิงคำนวณ}
+\newcommand{\engdegree}{Master of Science}
+\newcommand{\engshortdegree}{M.Sc.}
+\newcommand{\engdegreebranch}{Computational Science}
+\newcommand{\bdyear}{2569}
+\newcommand{\credits}{36}
+\newcommand{\univerity}{มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี}
+\newcommand{\faculty}{คณะวิทยาศาสตร์และเทคโนโลยี}
+\newcommand{\department}{สาขาวิชาคณิตศาสตร์}
+
+
+
+
+\begin{document}
+	
+\include{cover}
+\tableofcontents
+\include{info}
+\include{plos}
+\include{structure}
+
+	
+\end{document}

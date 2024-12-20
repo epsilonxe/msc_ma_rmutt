@@ -1,0 +1,47 @@
+09111501
+การวิเคราะห์เชิงคณิตศาสตร์
+Mathematical analysis
+3(3-0-9)
+ระบบจำนวนจริง สัจพจน์ความบริบูรณ์ ทอพอโลยีของจำนวนจริง ลิมิตและความต่อเนื่องของฟังก์ชัน อนุพันธ์ของฟังก์ชัน ปริพันธ์รีมันน์และปริพันธ์รีมันน์-สตีลต์เจส การลู่เข้าแบบเอกรูปของลำดับและอนุกรมของฟังก์ชัน
+Real number system, completeness axiom, topology of real number, limit and continuity of function, derivative of function, Riemann integral and Riemann-Stieltjes integral, uniform convergence of sequence and series of function.
+
+
+09111502
+การหาค่าเหมาะที่สุดเชิงตัวเลข
+Numerical optimization
+3(3-0-9)
+การหาค่าเหมาะที่สุดแบบไม่มีเงื่อนไข วิธีค้นหาเชิงเส้นและบริเวณที่เป็นไปได้ ทิศทางการค้นหา วิธีเกรเดียนต์สังยุคไม่เชิงเส้น ปัญหาค่าเหมาะที่สุดแบบมีเงื่อนไข กำหนดการกำลังสองเชิงลำดับ วิธีปริภูมิลดรูปและเต็มรูป วิธีจุดภายในการหาค่าเหมาะที่สุดวงกว้าง
+Unconstrained optimization; line search and feasible region method, search direction, nonlinear conjugate gradient method, constrained optimization, sequential quadratic programming, reduced and full-space methods, interior point method, global optimization.
+
+
+09111503
+การคำนวณเชิงตัวเลข
+Numerical computation
+3(3-0-9)
+การวิเคราะห์ค่าคลาดเคลื่อน ผลเฉลยของสมการไม่เชิงเส้น การประมาณค่าในช่วง การหาอนุพันธ์และการหาปริพันธ์เชิงตัวเลข ผลเฉลยเชิงตัวเลขของระบบเชิงเส้น ผลเฉลยเชิงตัวเลขของค่าเฉพาะและเวกเตอร์เฉพาะ
+Error analysis, solution of nonlinear equation, interpolation approximations, numerical differentiation and numerical integration, numerical solution of linear system, numerical solution of eigenvalue and eigenvector
+
+09111504
+การเล่าเรื่องด้วยข้อมูล
+Data Storytelling
+3(2-2-5)
+แนวคิดพื้นฐานในการสื่อสารข้อมูล การคัดเลือกและจัดโครงสร้างข้อมูลเพื่อเล่าเรื่อง การใช้เครื่องมือสร้างภาพข้อมูลเพื่อถ่ายทอดประเด็นสำคัญ การผสานการวิเคราะห์เชิงปริมาณและเชิงคุณภาพ การพัฒนาทักษะการนำเสนอที่มีประสิทธิภาพ และการปรับเนื้อหาให้เหมาะสมกับผู้รับสาร
+fundamental concepts of communicating data, selecting and structuring data to craft narratives, utilizing data visualization tools to highlight key insights, integrating quantitative and qualitative analysis, developing effective presentation skills, and tailoring content to the audience
+
+
+09111505
+การจัดการและวิเคราะห์ข้อมูลด้วยไพธอน
+Data Management and Analysis with Python
+3(2-2-5)
+พื้นฐาน NumPy การประมวลผลข้อมูลด้วย Pandas การสร้างภาพข้อมูลด้วย Matplotlib การวิเคราะห์ทางสถิติด้วย SciPy การเรียนรู้ของเครื่องเบื้องต้นด้วย Scikit-learn
+NumPy fundamentals, data processing with Pandas, data visualization using Matplotlib, statistical analysis with SciPy, introductory machine learning with Scikit-learn
+
+
+09111606
+สัมมนา
+Seminar
+0(0-3-2)
+แนะนำถึงระเบียบวิธีวิจัย การสืบค้นบทความวิชาการ การอ้างอิงเอกสาร การเขียนและการส่งรายงานเชิงวิชาการ การนำเสนอผลงานทางวิชาการ
+Introduction to research methodology, research searching, document citations, writing and submission of academic report and presentation
+
+
