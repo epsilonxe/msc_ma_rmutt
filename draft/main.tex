@@ -7,19 +7,57 @@
 \usepackage{longtable}
 \usepackage{titlesec}
 \usepackage{lscape}
+\usepackage{pifont}
+\usepackage{multirow}
+\usepackage[defaultlines=4, all]{nowidow}
+\usepackage{pdfpages}
 
 
 \setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{1}
 \renewcommand{\thesection}{\arabic{section}}
 \setlist[itemize]{label=$\text{\rlap{$\large\checkmark$}}\square$}
 \newcolumntype{r}[1]{>{\raggedleft\arraybackslash}p{#1}}
-\newcolumntype{C}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
 \titleformat{\chapter}   {\centering\normalfont\Large\bfseries}
   {หมวดที่ \thechapter}{1em}{} 
 
 \titlespacing*{\chapter}{0pt}{0pt}{30pt} 
+
+
+\newcounter{apdx}
+\newcommand{\startappendix}{
+\setcounter{apdx}{0}
+\cleardoublepage
+\pagestyle{plain}
+\par \;
+\vfill
+\begin{center}
+\textbf{\LARGE ภาคผนวก}	
+\end{center}
+\vfill
+\;
+\addcontentsline{toc}{chapter}{ภาคผนวก}
+}
+
+\newcommand{\insertappendix}[2]{
+\addtocounter{apdx}{1}
+\cleardoublepage
+\pagestyle{plain}
+\par \;
+\vfill
+\begin{center}
+\textbf{\LARGE ภาคผนวก \thaialph{apdx} \\[5mm] #1}	
+\end{center}
+\vfill
+\;
+\addcontentsline{toc}{section}{ภาคผนวก~\thaialph{apdx}: #1}
+\cleardoublepage
+\includepdf[pages=-,pagecommand={}]{#2}
+}
+
+%\newcommand*\thaialph[1]{\symbol{\numexpr96+#1}}
 
 
 \newcommand{\thdegree}{วิทยาศาสตรมหาบัณฑิต}
@@ -30,7 +68,7 @@
 \newcommand{\engdegreebranch}{Computational Science}
 \newcommand{\bdyear}{2569}
 \newcommand{\credits}{36}
-\newcommand{\univerity}{มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี}
+\newcommand{\university}{มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี}
 \newcommand{\faculty}{คณะวิทยาศาสตร์และเทคโนโลยี}
 \newcommand{\department}{สาขาวิชาคณิตศาสตร์}
 
