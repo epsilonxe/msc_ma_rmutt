@@ -11,6 +11,7 @@
 \usepackage{multirow}
 \usepackage[defaultlines=4, all]{nowidow}
 \usepackage{pdfpages}
+\usepackage[hidelinks]{hyperref}
 
 
 \setcounter{secnumdepth}{3}
@@ -20,8 +21,17 @@
 \newcolumntype{r}[1]{>{\raggedleft\arraybackslash}p{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
+
+\addto\captionsenglish{\renewcommand{\chaptername}{หมวดที่}}
 \titleformat{\chapter}   {\centering\normalfont\Large\bfseries}
-  {หมวดที่ \thechapter}{1em}{} 
+  {\chaptername\,\,\thechapter}{0.5em}{} 
+\titleformat{\section}{\normalfont\large\bfseries}
+  {\thesection.}{1em}{} 
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}
+  {\thesubsection.}{1em}{} 
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}
+  {\thesubsubsection.}{1em}{}
+%\renewcommand{\leftmark}{\chaptername\,\thechapter }
 
 \titlespacing*{\chapter}{0pt}{0pt}{30pt} 
 
@@ -52,20 +62,21 @@
 \end{center}
 \vfill
 \;
-\addcontentsline{toc}{section}{ภาคผนวก~\thaialph{apdx}: #1}
+\addcontentsline{toc}{section}{\thaialph{apdx}\, #1}
 \cleardoublepage
 \includepdf[pages=-,pagecommand={}]{#2}
 }
 
 %\newcommand*\thaialph[1]{\symbol{\numexpr96+#1}}
+\setlist[enumerate]{itemsep=0.15\parsep}
 
 
 \newcommand{\thdegree}{วิทยาศาสตรมหาบัณฑิต}
 \newcommand{\thshortdegree}{วท.ม.}
-\newcommand{\thdegreebranch}{วิทยาการเชิงคำนวณ}
+\newcommand{\thdegreebranch}{การเรียนรู้ของเครื่องประยุกต์}
 \newcommand{\engdegree}{Master of Science}
 \newcommand{\engshortdegree}{M.Sc.}
-\newcommand{\engdegreebranch}{Computational Science}
+\newcommand{\engdegreebranch}{Applied Machine Learning}
 \newcommand{\bdyear}{2569}
 \newcommand{\credits}{36}
 \newcommand{\university}{มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี}

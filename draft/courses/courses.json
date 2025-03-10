@@ -2,8 +2,8 @@
     "courses": {
 
         "09110601": {
-            "title_en": "Research Methodology in Computational Optimization and Machine Learning",
-            "title_th": "ระเบียบวิธีวิจัยการหาค่าเหมาะที่สุดเชิงคำนวณและการเรียนรู้ของเครื่อง",
+            "title_en": "Research Methodology",
+            "title_th": "ระเบียบวิธีวิจัย",
             "type": 0,
             "group": 1,
             "credits": 3,
@@ -87,25 +87,26 @@
         },
 
         "09111603": {
-            "title_en": "Machine Learning",
-            "title_th": "การเรียนรู้ของเครื่อง",
+            "title_en": "Supervised Machine Learning",
+            "title_th": "การเรียนรู้ของเครื่องแบบมีผู้สอน",
             "type": 1,
             "group": 1,
             "credits": 3,
-            "lecture_hr": 3,
-            "lab_hr": 0,
+            "lecture_hr": 2,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "Concepts, theories and principle of machine learning, algorithms for machine learning, supervised learning, unsupervised learning, deep learning, learning theory, reinforcement learning, model evaluation techniques in machine learning.",
-            "description_th": "แนวคิด ทฤษฎีและหลักการเกี่ยวกับการเรียนรู้ของเครื่อง อัลกอริทึมสำหรับการเรียนรู้ของเครื่องการเรียนรู้แบบมีผู้สอน การเรียนรู้แบบไม่มีผู้สอน การเรียนรู้เชิงลึก ทฤษฎีการเรียนรู้ การเรียนรู้แบบเสริมกำลัง เทคนิค การประเมินแบบจำลองการเรียนรู้ของเครื่อง",
+            "description_en": "Concepts and principles of supervised machine learning, data preparation, learning algorithm, such as linear regression, multiple linear regression, logistic regression, k-nearest neighbors, decision tree. Model evaluation, application model to forecasting and data classification.",
+            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบมีผู้สอน การเตรียมข้อมูล ขั้นตอนการเรียนรู้ เช่น การถดถอยเชิงเส้น การถดถอยเชิงเส้นพหุคูณ การถดถอยโลจีสติกส์ ย่านใกล้เคียงที่สุดเค เบย์อย่างง่าย ต้นไม้ตัดสินใจ การทดสอบประสิทธิภาพตัวแบบ การใช้ตัวแบบไปประยุกต์ใช้ในการพยากรณ์และการจำแนกข้อมูล",
             "clos": [
-                "อธิบายแนวคิด ทฤษฎีและหลักการเกี่ยวกับการเรียนรู้ของเครื่องได้",
-                "อธิบายการเลือกใช้อัลกอริทึมที่เหมาะสมในการแก้ปัญหาได้",
-                "สร้างหรือพัฒนาแบบอัลกอริทึมสำหรับการเรียนรู้ของเครื่องการเรียนรู้เพื่อใช้แก้ปัญหาได้",
-                "อธิบายการหาความยาว ระยะทางและส่วนประกอบเชิงตั้งฉากของเวกเตอร์ได้",
-                "วิเคราะห์ประสิทธิภาพของแบบจำลองการเรียนรู้ของเครื่องได้"
+                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบมีผู้สอนได้",
+                "อธิบายการเลือกใช้อัลกอริทึมแบบมีผู้สอนที่เหมาะสมสำหรับข้อมูลที่มีความหลากหลายได้",
+                "สร้างหรือพัฒนาแบบอัลกอริทึมแบบมีผู้สอนในการพยากรณ์และการจำแนกข้อมูลได้",
+                "วิเคราะห์ประสิทธิภาพของอัลกอริทึมแบบมีผู้สอนได้",
+                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
+                "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นสำหรับการเรียนรู้ได้"
             ],
-            "los_mapping": [1, 2, 10],
-            "plos_mapping": [1, 2, 10]
+            "los_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10],
+            "plos_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10]
 
         },
 
@@ -220,8 +221,8 @@
             "type": 3,
             "group": 1,
             "credits": 3,
-            "lecture_hr": 3,
-            "lab_hr": 0,
+            "lecture_hr": 2,
+            "lab_hr": 2,
             "prereq": "",
             "description_en": "Optimization in Hilbert and Banach spaces, algorithm for fixed point, inertial method, variational inequality problem, equilibrium problem, quasi-inclusion problem, split feasibility problem, construction algorithm for solution of optimization problems.",
             "description_th": "ทฤษฎีค่าเหมาะที่สุดในปริภูมิฮิลเบิร์ตและปริภูมิบานาค ขั้นตอนวิธีสำหรับจุดตรึง วิธีอินเนอร์เทียล ปัญหาอสมการเชิงแปรผัน ปัญหาดุลยภาพ ปัญหารวมแบบกึ่ง ปัญหาเป็นไปได้แบบแยก การสร้างขั้นตอนวิธีเพื่อหาผลเฉลยของปัญหาค่าเหมาะที่สุด",
@@ -241,8 +242,8 @@
             "type": 3,
             "group": 1,
             "credits": 3,
-            "lecture_hr": 3,
-            "lab_hr": 0,
+            "lecture_hr": 2,
+            "lab_hr": 2,
             "prereq": "",
             "description_en": "Linear programming: linear programming model and graphical solution, principles of the simplex method, dual problem and sensitivity analysis, principles of the dual simplex method, transportation models and its applications, logistics problems, network problems, investment problems, dynamic programming, development to operation research as an application to assist decision making.",
             "description_th": "กำหนดการเชิงเส้น: ตัวแบบกำหนดการเชิงเส้นและการหาผลเฉลยโดยวิธีกราฟ หลักการของวิธีซิมเพล็กซ์ ปัญหาควบคู่และการวิเคราะห์ความไว หลักการของวิธีซิมเพล็กซ์ควบคู่ ปัญหาการขนส่ง ปัญหาเครือข่าย ปัญหาการลงทุน กำหนดการพลวัต การพัฒนาแอพพลิเคชั่นช่วยตัดสินใจในการแก้ปัญหาโดยใช้การวิจัยดำเนินงาน",
@@ -278,13 +279,63 @@
 
         },
 
-        "09114701": {
+
+"09114601": {
+            "title_en": "Unsupervised Machine Learning",
+            "title_th": "การเรียนรู้ของเครื่องแบบไม่มีผู้สอน",
+            "type": 4,
+            "group": 1,
+            "credits": 3,
+            "lecture_hr": 2,
+            "lab_hr": 2,
+            "prereq": "",
+            "description_en": "Concepts and principles of unsupervised machine learning, data clustering, k-means clustering. Association data: support and confident factors, apriori algorithm, application model to data clustering.",
+            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบไม่มีผู้สอน การจัดกลุ่มข้อมูล การจัดกลุ่มแบบค่าเฉลี่ยเค การหากฎความสัมพันธ์ ปัจจัยสนับสนุนนและปัจจัยความเชื่อมั่น ขั้นตอนวิธีแบบนิรนัย การใช้ตัวแบบไปประยุกต์ใช้ในการจัดกลุ่มข้อมูล",
+            "clos": [
+                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบไม่มีผู้สอนได้",
+                "อธิบายการเลือกใช้อัลกอริทึมแบบไม่มีผู้สอนที่เหมาะสมสำหรับข้อมูลที่มีความหลากหลายได้",
+                "สร้างหรือพัฒนาแบบอัลกอริทึมแบบมีไม่มีผู้สอนในการจัดกลุ่มข้อมูลได้",
+                "วิเคราะห์ประสิทธิภาพของอัลกอริทึมแบบไม่มีผู้สอนได้",
+                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
+                 "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นสำหรับการเรียนรู้ได้"
+
+            ],
+            "los_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10],
+            "plos_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10]
+    },
+
+
+"09114702": {
+            "title_en": "Reinforcement Machine Learning",
+            "title_th": "การเรียนรู้ของเครื่องแบบเสริมแรง",
+            "type": 4,
+            "group": 1,
+            "credits": 3,
+            "lecture_hr": 2,
+            "lab_hr": 2,
+            "prereq": "",
+            "description_en": "Concepts and principles of reinforcement machine learning, agent, reward and punishment, Q-learning, deep Q-network, sequential decision-making, robot control, traffic control and gameplay strategy.",
+            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบเสริมแรง การทดลองของตัวแทน การให้รางวัลและการลงโทษ การเรียนรู้คิว โครงข่ายคิวเชิงลึก การตัดสินใจแบบต่อเนื่องกัน การควบคุมหุ่นยนต์ การจัดการจราจร และการวางกลยุทธ์ในเกม",
+            "clos": [
+                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบเสริมแรง",
+                "อธิบายการเลือกใช้อัลกอริทึมของการเรียนรู้แบบเสริมแรงที่เหมาะสมกับสถานการณ์ที่หลากหลาย",
+                "สร้างหรือพัฒนาแบบอัลกอริทึมในการจัดการปัญหาได้",
+                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
+                "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นสำหรับการเรียนรู้ได้"
+
+            ],
+            "los_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10],
+            "plos_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10]
+    },
+
+
+        "09114703": {
             "title_en": "Deep Learning and Applications",
             "title_th": "การเรียนรู้เชิงลึกและการประยุกต์  ",
             "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Fundamentals of neural networks, feed-forward and backpropagation learning, implementation with frameworks such as tensor flow or PyTorch, convolutional neural networks, recurrent neural networks, techniques to prevent overfitting, hyperparameter tuning, applications in image processing, and natural language processing.",
@@ -301,13 +352,13 @@
         },
 
 
-        "09114702": {
-            "title_en": "Machine Learning Engineering and Data Scraping",
-            "title_th": "วิศวกรรมการเรียนรู้ของเครื่องและการดึงข้อมูล",
+        "09114704": {
+            "title_en": "Machine Learning Engineering",
+            "title_th": "วิศวกรรมการเรียนรู้ของเครื่อง",
             "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Principles of Machine learning engineering, process and design of machine learning, machine learning development and deployment, data scraping for machine learning, machine learning web application development.",
@@ -322,13 +373,13 @@
             "plos_mapping": [1, 6, 10]
         },
 
-        "09114603": {
+        "09114605": {
             "title_en": "Data Analytics",
             "title_th": "การวิเคราะห์ข้อมูล",
-            "type": 3,
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Technologies used in manipulating, storing, and analyzing big data, clustering data, path analysis, factor analysis and structural equation model, utilization of software packages or programming language for analysis.",
@@ -342,13 +393,13 @@
 
         },
 
-        "09114604": {
+        "09114606": {
             "title_en": "Data Visualization",
             "title_th": "การทำให้เห็นข้อมูล",
-            "type": 3,
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Coordinate systems and axes, color scales, visualizing amounts, visualizing distributions, visualizing proportions, visualizing time series, visualizing trends, visualizing uncertainty, principles of figure design, the principle of proportional ink, and handling overlapping points.",
@@ -363,19 +414,19 @@
             "plos_mapping": [1, 6, 10]
         },
 
-        "09114705": {
-            "title_en": "Applications of Machine Learning in Natural Language Processing",
-            "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านการประมวลภาษาธรรมชาติ",
-            "type": 3,
+        "09114707": {
+            "title_en": "Large Language Model",
+            "title_th": "แบบจำลองภาษาขนาดใหญ่",
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
-            "description_en": "Definition and characteristic of natural language processing (NLP), text pre-processing, semantic and grammatical analysis, features extraction, TF-IDF model, word and document vectors, speech recognition and synthesis, application of NLP to classification, information extraction, text mining and information retrieval, application of deep learning to NLP, neural networks in NLP.",
-            "description_th": "ความหมายและลักษณะของงานด้านการประมวลภาษาธรรมชาติ การประมวลผลข้อความล่วงหน้า การวิเคราะห์ความหมายและไวยากรณ์ การแยกคุณสมบัติ รูปแบบ TF-IDF รูปแบบของคำและเอกสารที่เป็นเวกเตอร์ การรู้จําและการสังเคราะห์เสียง การประยุกต์ NLP ในการจำแนก การสกัดข้อมูล การขุดและการดึงข้อความ การประยุกต์การเรียนรู้เชิงลึกใน NLP โครงข่ายประสาทเทียมใน NLP",
+            "description_en": "Definition and characteristic of large language model (LLM), text pre-processing, semantic and grammatical analysis, features extraction, TF-IDF model, word and document vectors, speech recognition and synthesis, application of LLM to classification, information extraction, text mining and information retrieval, application of deep learning to LLM, neural networks in LLM.",
+            "description_th": "ความหมายและลักษณะของแบบจำลองภาษาขนาดใหญ่ การประมวลผลข้อความล่วงหน้า การวิเคราะห์ความหมายและไวยากรณ์ การแยกคุณสมบัติ รูปแบบ TF-IDF รูปแบบของคำและเอกสารที่เป็นเวกเตอร์ การรู้จําและการสังเคราะห์เสียง การประยุกต์ LLM ในการจำแนก การสกัดข้อมูล การขุดและการดึงข้อความ การประยุกต์การเรียนรู้เชิงลึกใน LLM โครงข่ายประสาทเทียมใน LLM",
             "clos": [
-                "อธิบายหลักการใช้การเรียนรู้ของเครื่องในงานด้านการประมวลภาษาธรรมชาติได้",
+                "อธิบายหลักการใช้แบบจำลองภาษาขนาดใหญ่",
                 "สร้างระบบการประมวลผลข้อความ ความหมายและไวยกรณ์ได้",
                 "ใช้เครื่องมือและเทคโนโลยีที่ทันสมัยเพื่อสร้างเว็บแอพพลิเคชั่นสำหรับเนื้อหา ความรู้และการสนทนาได้"
 
@@ -385,13 +436,13 @@
 
         },
 
-        "09114706": {
+        "09114708": {
             "title_en": "Applications of Machine Learning in Image and Signal Processing",
             "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านประมวลผลภาพและสัญญาณ",
-            "type": 3,
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Applications of Machine Learning in Image and signal processing: machine learning for analyze image and signal. Image deblurring problem, Gaussian blur, motion blur, out of focus blur, noise reduction, image and signal compression, image preprocessing and augmentation techniques.",
@@ -409,13 +460,13 @@
 
         },
 
-        "09114707": {
+        "09114709": {
             "title_en": "Applications of Machine Learning in Medical",
             "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านการแพทย์ ",
-            "type": 3,
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Application of machine learning in the medical: machine learning for disease diagnosis and identifying the types of diseases, data analytic of medical big data.",
@@ -431,13 +482,13 @@
             "plos_mapping": [1, 2, 6, 7, 10]
         },
 
-        "09114708": {
+        "09114710": {
             "title_en": "Applications of Machine Learning in Business and Finance",
             "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในด้านธุรกิจและการเงิน",
-            "type": 3,
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Application of machine learning in business and finance: machine learning for stock trend analysis and making business decisions.",
@@ -453,13 +504,13 @@
             "plos_mapping": [1, 2, 6, 7, 10]
         },
 
-        "09114709": {
+        "09114711": {
             "title_en": "Special Topic in Machine Learning",
             "title_th": "หัวข้อพิเศษของการเรียนรู้ของเครื่อง ",
-            "type": 3,
+            "type": 4,
             "group": 1,
-            "credits": 3,
-            "lecture_hr": 3,
+            "credits": 2,
+            "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Theoretical advances for applications of machine learning, specific topics based on contemporary advances in science and technology, interests of individual instructor and students.",
@@ -497,7 +548,7 @@
         "09115702": {
             "title_en": "Thesis",
             "title_th": "วิทยานิพนธ์",
-            "type": 5,
+            "type": 6,
             "group": 1,
             "credits": 12,
             "lecture_hr": 0,
@@ -518,7 +569,7 @@
         "09115703": {
             "title_en": "Thesis",
             "title_th": "วิทยานิพนธ์",
-            "type": 5,
+            "type": 6,
             "group": 1,
             "credits": 36,
             "lecture_hr": 0,
