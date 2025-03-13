@@ -21,7 +21,7 @@
             "plos_mapping": [6, 8, 10]
         },
 
-        "09110602": {
+        "09110702": {
             "title_en": "Seminar",
             "title_th": "สัมมนา",
             "type": 0,
@@ -109,7 +109,7 @@
 
         },
 
-        "09111704": {
+        "09113601": {
             "title_en": "Optimization for Machine Learning",
             "title_th": "การหาค่าเหมาะที่สุดสำหรับการเรียนรู้ของเครื่อง",
             "type": 3,
@@ -129,7 +129,7 @@
             "plos_mapping": [1, 2, 6, 10]
         },
 
-        "09111705": {
+        "09114701": {
             "title_en": "Data Structures and Algorithms for Machine Learning",
             "title_th": "โครงสร้างข้อมูลและอัลกอริทึมสำหรับการเรียนรู้ของเครื่อง",
             "type": 4,
@@ -186,14 +186,14 @@
                 "อธิบายทฤษฎีบทที่เกี่ยวข้องจุดตรึงในปริภูมิฮิลเบิร์ต",
                 "อธิบายทฤษฎีบทที่เกี่ยวข้องจุดตรึงในปริภูมิบานาค",
                 "อธิบายทฤษฎีบทที่เกี่ยวกับการลู่เข้าของการทำซ้ำ",
-                "พิสูจน์ทฤษฎีบทการลู่เข้าของการทำซ้ำ"
+                "พิสูจน์ทฤษฎีบทการลู่เข้าของการทำซ้ำ",
                 "สร้างหรือพัฒนากระบวนการทำซ้ำเพื่อหาจุดตรึงในปริภูมิเมตริก ปริภูมิฮิลเบิร์ต และปริภูมิบานาค"
             ],
             "los_mapping": [2, 4, 10],
             "plos_mapping": [2, 4, 10]
         },
 
-        "09113601": {
+        "09113702": {
             "title_en": "Advanced Mathematics for Machine Learning",
             "title_th": "คณิตศาสตร์ขั้นสูงสำหรับการเรียนรู้ของเครื่อง",
             "type": 3,
@@ -219,7 +219,7 @@
         },
 
 
-        "09113702": {
+        "09113703": {
             "title_en": "Numerical Algorithm for Optimization",
             "title_th": "ขั้นตอนวิธีเชิงตัวเลขสำหรับค่าเหมาะที่สุด ",
             "type": 3,
@@ -240,7 +240,7 @@
             "plos_mapping": [1, 2, 6, 10]
         },
 
-        "09113603": {
+        "09111704": {
             "title_en": "Intelligence Decision Making",
             "title_th": "การตัดสินใจอย่างชาญฉลาด",
             "type": 1,
@@ -249,8 +249,8 @@
             "lecture_hr": 2,
             "lab_hr": 2,
             "prereq": "",
-            "description_en": "Linear programming: linear programming model and graphical solution, principles of the simplex method, dual problem and sensitivity analysis, principles of the dual simplex method, transportation models and its applications, logistics problems, network problems, investment problems, dynamic programming, integer programming, goal programming",
-            "description_th": "กำหนดการเชิงเส้น: ตัวแบบกำหนดการเชิงเส้นและการหาผลเฉลยโดยวิธีกราฟ หลักการของวิธีซิมเพล็กซ์ ปัญหาควบคู่และการวิเคราะห์ความไว หลักการของวิธีซิมเพล็กซ์ควบคู่ ปัญหาการขนส่ง ปัญหาเครือข่าย ปัญหาการลงทุน กำหนดการพลวัต กำหนดการจำนวนเต็ม กำหนดการเป้าหมาย",
+            "description_en": "Linear programming model and graphical solution, principles of the simplex method, dual problem and sensitivity analysis, principles of the dual simplex method, transportation models and its applications, logistics problems, network problems, investment problems, dynamic programming, integer programming, goal programming",
+            "description_th": "ตัวแบบกำหนดการเชิงเส้นและการหาผลเฉลยโดยวิธีกราฟ หลักการของวิธีซิมเพล็กซ์ ปัญหาควบคู่และการวิเคราะห์ความไว หลักการของวิธีซิมเพล็กซ์ควบคู่ ปัญหาการขนส่ง ปัญหาเครือข่าย ปัญหาการลงทุน กำหนดการพลวัต กำหนดการจำนวนเต็ม กำหนดการเป้าหมาย",
             "clos": [
                 "อธิบายหลักการของกำหนดการเชิงเส้นและการหาผลเฉลย",
                 "เขียนตัวแบบของปัญหาการขนส่ง ปัญหาเครือข่าย หรือปัญหาการลงทุนในรูปแบบกำหนดการเชิงเส้น",
@@ -285,67 +285,67 @@
         },
 
 
-"09114601": {
-            "title_en": "Machine Learning 2",
-            "title_th": "การเรียนรู้ของเครื่อง 2",
-            "type": 4,
-            "group": 1,
-            "credits": 3,
-            "lecture_hr": 2,
-            "lab_hr": 2,
-            "prereq": "",
-            "description_en": "Concepts and principles of unsupervised machine learning, data clustering, k-means clustering. Association data: support and confident factors, apriori algorithm, application model to data clustering.",
-            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบไม่มีผู้สอน การจัดกลุ่มข้อมูล การจัดกลุ่มแบบค่าเฉลี่ยเค การหากฎความสัมพันธ์ ปัจจัยสนับสนุนนและปัจจัยความเชื่อมั่น ขั้นตอนวิธีแบบนิรนัย การใช้ตัวแบบไปประยุกต์ใช้ในการจัดกลุ่มข้อมูล",
-            "clos": [
-                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบไม่มีผู้สอนได้",
-                "อธิบายการเลือกใช้อัลกอริทึมแบบไม่มีผู้สอนที่เหมาะสมสำหรับข้อมูลที่มีความหลากหลายได้",
-                "สร้างหรือพัฒนาแบบอัลกอริทึมแบบมีไม่มีผู้สอนในการจัดกลุ่มข้อมูลได้",
-                "วิเคราะห์ประสิทธิภาพของอัลกอริทึมแบบไม่มีผู้สอนได้",
-                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้"
-            ],
-            "los_mapping": [1, 2, 4, 5, 6, 10],
-            "plos_mapping": [1, 2, 4, 5, 6, 10],
-    },
-
-
-"09114702": {
-            "title_en": "Reinforcement Machine Learning",
-            "title_th": "การเรียนรู้ของเครื่องแบบเสริมแรง",
-            "type": 4,
-            "group": 1,
-            "credits": 3,
-            "lecture_hr": 2,
-            "lab_hr": 2,
-            "prereq": "",
-            "description_en": "Concepts and principles of reinforcement machine learning, agent, reward and punishment, Q-learning, deep Q-network, sequential decision-making, robot control, traffic control and gameplay strategy.",
-            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบเสริมแรง การทดลองของตัวแทน การให้รางวัลและการลงโทษ การเรียนรู้คิว โครงข่ายคิวเชิงลึก การตัดสินใจแบบต่อเนื่องกัน การควบคุมหุ่นยนต์ การจัดการจราจร และการวางกลยุทธ์ในเกม",
-            "clos": [
-                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบเสริมแรง",
-                "อธิบายการเลือกใช้อัลกอริทึมของการเรียนรู้แบบเสริมแรงที่เหมาะสมกับสถานการณ์ที่หลากหลาย",
-                "สร้างหรือพัฒนาอัลกอริทึมโดยใช้การเรียนรู้ของเครื่องแบบเสริมแรงในการแก้ปัญหาจริงได้",
-                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
-            ],
-            "los_mapping": [1, 2, 4, 5, 6, 10],
-            "plos_mapping": [1, 2, 4, 5, 6, 10]
-    },
+        "09114702": {
+                    "title_en": "Machine Learning 2",
+                    "title_th": "การเรียนรู้ของเครื่อง 2",
+                    "type": 4,
+                    "group": 1,
+                    "credits": 3,
+                    "lecture_hr": 2,
+                    "lab_hr": 2,
+                    "prereq": "",
+                    "description_en": "Concepts and principles of unsupervised machine learning, data clustering, k-means clustering, association data, support and confident factors, apriori algorithm, application model to data clustering.",
+                    "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบไม่มีผู้สอน การจัดกลุ่มข้อมูล การจัดกลุ่มแบบค่าเฉลี่ยเค การหากฎความสัมพันธ์ ปัจจัยสนับสนุนนและปัจจัยความเชื่อมั่น ขั้นตอนวิธีแบบนิรนัย การใช้ตัวแบบไปประยุกต์ใช้ในการจัดกลุ่มข้อมูล",
+                    "clos": [
+                        "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบไม่มีผู้สอนได้",
+                        "อธิบายการเลือกใช้อัลกอริทึมแบบไม่มีผู้สอนที่เหมาะสมสำหรับข้อมูลที่มีความหลากหลายได้",
+                        "สร้างหรือพัฒนาแบบอัลกอริทึมแบบมีไม่มีผู้สอนในการจัดกลุ่มข้อมูลได้",
+                        "วิเคราะห์ประสิทธิภาพของอัลกอริทึมแบบไม่มีผู้สอนได้",
+                        "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้"
+                    ],
+                    "los_mapping": [1, 2, 4, 5, 6, 10],
+                    "plos_mapping": [1, 2, 4, 5, 6, 10]
+            },
 
 
         "09114703": {
+                    "title_en": "Reinforcement Machine Learning",
+                    "title_th": "การเรียนรู้ของเครื่องแบบเสริมแรง",
+                    "type": 4,
+                    "group": 1,
+                    "credits": 3,
+                    "lecture_hr": 2,
+                    "lab_hr": 2,
+                    "prereq": "",
+                    "description_en": "Markov decision processes, reward functions, value iteration, policy iteration, Q-learning, deep reinforcement learning, exploration-exploitation trade-off, function approximation, multi-agent reinforcement learning, simulation, performance evaluation",
+                    "description_th": "กระบวนการตัดสินใจแบบมาร์คอฟ ฟังก์ชันรางวัล การวนซ้ำค่า การวนซ้ำนโยบาย การเรียนรู้คิว การเรียนรู้เชิงเสริมแรงแบบลึก การแลกเปลี่ยนระหว่างการสำรวจและการใช้ประโยชน์ การประมาณค่า การเรียนรู้แบบเสริมแรงในหลายตัวแทน การจำลอง การประเมินผลการดำเนินงาน",
+                    "clos": [
+                        "วิเคราะห์และอธิบายหลักการของกระบวนการตัดสินใจแบบมาร์คอฟและฟังก์ชันรางวัล",
+                        "ประยุกต์ใช้วิธีการวนซ้ำค่าและวนซ้ำนโยบายในการค้นหานโยบายที่เหมาะสม",
+                        "ประเมินและเปรียบเทียบเทคนิค Q-learning กับการเรียนรู้เชิงเสริมแรงแบบลึก",
+                        "ออกแบบและพัฒนาระบบจำลองเพื่อทดสอบการแลกเปลี่ยนระหว่างการสำรวจและการใช้ประโยชน์",
+                        "สร้างและวัดประสิทธิภาพของโมเดลการเรียนรู้แบบเสริมแรงในสภาพแวดล้อมจำลอง"
+                    ],
+                    "los_mapping": [1, 2, 4, 5, 6, 10],
+                    "plos_mapping": [1, 2, 4, 5, 6, 10]
+            },
+
+
+        "09111705": {
             "title_en": "Deep Learning and Applications",
-            "title_th": "การเรียนรู้เชิงลึกและการประยุกต์  ",
+            "title_th": "การเรียนรู้เชิงลึกและการประยุกต์",
             "type": 1,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
             "description_en": "Fundamentals of neural networks, feed-forward and backpropagation learning, implementation with frameworks such as tensor flow or PyTorch, convolutional neural networks, recurrent neural networks, techniques to prevent overfitting, hyperparameter tuning, applications in real-world problems",
             "description_th": "พื้นฐานโครงข่ายประสาทเทียม การเรียนรู้แบบป้อนหน้าและการแพร่กลับ การใช้งานเฟรมเวิร์กเช่น TensorFlow หรือ PyTorch โครงข่ายประสาทแบบคอนโว ลูชัน โครงข่ายประสาทแบบหมุนเวียน เทคนิคป้องกันการฟิตเกิน การปรับจูนไฮเปอร์พารามิเตอร์ การประยุกต์ใช้ในการแก้ปัญหาจริง",
             "clos": [
                 "เลือกใช้แบบจำลองให้เหมาะสมกับปัญหาที่หลากหลายได้อย่างเหมาะสม",
                 "อธิบายการใช้เทคนิคโครงข่ายประสาทเทียมแบบประสานและโครงข่ายประสาทเทียมแบบวนซ้ำได้",
-                "สร้างหรือพัฒนาอัลกอริทึมการเรียนรู้เชิงลึกเพื่อใช้แก้ปัญหาจริงได้",
-          
+                "สร้างหรือพัฒนาอัลกอริทึมการเรียนรู้เชิงลึกเพื่อใช้แก้ปัญหาจริงได้"
             ],
             "los_mapping": [1, 2, 4, 5, 6, 10],
             "plos_mapping": [1, 2, 4, 5, 6, 10]
@@ -357,9 +357,9 @@
             "title_th": "วิศวกรรมการเรียนรู้ของเครื่อง",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
             "description_en": "Principles of Machine learning engineering, process and design of machine learning, machine learning development and deployment, data scraping for machine learning, machine learning web application development.",
             "description_th": "หลักการของวิศวกรรมการเรียนรู้ของเครื่อง กระบวนการและการออกแบบการเรียนรู้ของเครื่อง การพัฒนาและการปรับใช้การเรียนรู้ของเครื่อง การดึงข้อมูลสำหรับการเรียนรู้ของเครื่อง การพัฒนาเว็บแอพพลิเคชั่นเพื่องานการเรียนรู้ของเครื่อง ",
@@ -373,14 +373,14 @@
             "plos_mapping": [1, 4, 5, 6, 10]
         },
 
-        "09114605": {
+        "09114705": {
             "title_en": "Data Analytics",
             "title_th": "การวิเคราะห์ข้อมูล",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
             "description_en": "Data Analysis Methodology, Data Preparation, Data Cleaning, Data Transformation, Data Aggregation, Data Merging, Data Clustering, Data Reshaping, Data Table, Data Indexing, Data Filtering, Data Visualization, Statistical Analysis, Statistical Calculation, Time Series, Data Integration, Data Distribution, Group Summary, Data Quality Assessment, Dimensionality Reduction, Predictive Modeling, Outlier Detection, Forecasting Analysis, Data Processing, Data Reporting.",
             "description_th": "กระบวนการวิเคราะห์ข้อมูล การเตรียมข้อมูล การทำความสะอาดข้อมูล การแปลงข้อมูล การสรุปข้อมูล การรวมข้อมูล การจัดกลุ่มข้อมูล การปรับโครงสร้างข้อมูล ตารางข้อมูล ดัชนีข้อมูล การคัดกรองข้อมูล การสร้างแผนภาพข้อมูล การวิเคราะห์เชิงสถิติ การคำนวณสถิติ ข้อมูลเวลา การรวมแหล่งข้อมูล การวิเคราะห์การกระจาย การสรุปกลุ่มข้อมูล การตรวจสอบคุณภาพข้อมูล การลดมิติข้อมูล แบบจำลองทำนาย การตรวจจับค่าเบี่ยงเบน การวิเคราะห์เชิงคาดการณ์ การประมวลผลข้อมูล การสรุปผลเชิงข้อมูล",
@@ -396,67 +396,70 @@
 
         },
 
-        "09114606": {
-            "title_en": "Data Visualization",
-            "title_th": "การทำให้เห็นข้อมูล",
+        "09114706": {
+            "title_en": "Data Visualization and Data Storytelling",
+            "title_th": "การสร้างแผนภาพและการเล่าเรื่องด้วยข้อมูล",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "Coordinate systems and axes, color scales, visualizing amounts, visualizing distributions, visualizing proportions, visualizing time series, visualizing trends, visualizing uncertainty, principles of figure design, the principle of proportional ink, and handling overlapping points.",
-            "description_th": "ระบบพิกัดและแกน สเกลสี การแสดงภาพจำนวน การแสดงภาพการกระจาย การแสดงภาพสัดส่วน การแสดงภาพอนุกรมเวลา การแสดงภาพแนวโน้ม การแสดงภาพความไม่แน่นอน หลักการออกแบบภาพ เช่น หลักการของน้ำหมึกตามสัดส่วน และการจัดการจุดที่ทับซ้อนกัน",
+            "description_en": "Data Visualization Design, Bar Chart, Pie Chart, Line Chart, Scatter Plot, Interactive Graph, Infographic, Data Storytelling, Narrative Structure, Data Communication, Color Tone, Typography, Layout, Dashboard, Narrative Analysis, Stacked Bar Chart, Area Chart, Interactive Display, Symbol, Data Map, Scale, User Interface, Design Composition, Data Interpretation, Scaling.",
+            "description_th": "การออกแบบภาพข้อมูล แผนภูมิแท่ง แผนภูมิวงกลม แผนภูมิเส้น แผนภูมิจุด กราฟอินเตอร์แอคทีฟ อินโฟกราฟิก การเล่าเรื่องด้วยข้อมูล โครงสร้างเรื่องเล่า การสื่อสารข้อมูล โทนสี แบบอักษร เลย์เอาท์ แดชบอร์ด การวิเคราะห์เรื่องเล่า กราฟแท่งซ้อน แผนภูมิรอยต่อ การแสดงผลอินเตอร์แอคทีฟ สัญลักษณ์ แผนที่ข้อมูล สเกล ส่วนติดต่อผู้ใช้ องค์ประกอบการออกแบบ การตีความข้อมูล การปรับขนาด",
             "clos": [
-                "อธิบายแนวคิดพื้นฐานและหลักการของการทำให้เห็นข้อมูลได้",
-                "ออกแบบการแสดงภาพที่จากชุดข้อมูลที่ซับซ้อนได้",
-                "ใช้เครื่องมือและเทคโนโลยีที่ทันสมัยแสดงภาพจากชุดข้อมูลขนาดใหญ่ให้สื่อสารและเข้าใจง่ายขึ้นได้"
-
+                "ออกแบบภาพข้อมูลที่สื่อความหมายได้ชัดเจนโดยใช้แผนภูมิแท่ง, แผนภูมิวงกลม, แผนภูมิเส้น และแผนภูมิจุด",
+                "สร้างกราฟอินเตอร์แอคทีฟและอินโฟกราฟิกเพื่อสื่อสารข้อมูลอย่างมีประสิทธิภาพ",
+                "วางโครงสร้างเรื่องเล่าเพื่อการเล่าเรื่องด้วยข้อมูลที่ชัดเจนและน่าสนใจ",
+                "ประเมินองค์ประกอบการออกแบบ เช่น โทนสี, แบบอักษร, เลย์เอาท์ และแดชบอร์ดในการนำเสนอข้อมูล",
+                "ตีความข้อมูลและปรับขนาดผ่านการวิเคราะห์แผนที่ข้อมูลเพื่อสนับสนุนการตัดสินใจ"
             ],
-            "los_mapping": [1, 6, 10],
-            "plos_mapping": [1, 6, 10]
+            "los_mapping": [1, 5, 6, 8, 10],
+            "plos_mapping": [1, 5, 6, 8, 10]
         },
 
         "09114707": {
-            "title_en": "Large Language Model",
+            "title_en": "Large Language Models",
             "title_th": "แบบจำลองภาษาขนาดใหญ่",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "Definition and characteristic of large language model (LLM), text pre-processing, semantic and grammatical analysis, features extraction, TF-IDF model, word and document vectors, speech recognition and synthesis, application of LLM to classification, information extraction, text mining and information retrieval, application of deep learning to LLM, neural networks in LLM.",
-            "description_th": "ความหมายและลักษณะของแบบจำลองภาษาขนาดใหญ่ การประมวลผลข้อความล่วงหน้า การวิเคราะห์ความหมายและไวยากรณ์ การแยกคุณสมบัติ รูปแบบ TF-IDF รูปแบบของคำและเอกสารที่เป็นเวกเตอร์ การรู้จําและการสังเคราะห์เสียง การประยุกต์ LLM ในการจำแนก การสกัดข้อมูล การขุดและการดึงข้อความ การประยุกต์การเรียนรู้เชิงลึกใน LLM โครงข่ายประสาทเทียมใน LLM",
+            "description_en": "scaling laws, transformer architectures, self-attention, pre-training, fine-tuning, transfer learning, contextual embeddings, few-shot learning, prompt engineering, retrieval augmented generation, evaluation metrics, ethical considerations, deployment strategies, performance optimization, model interpretability, dataset curation",
+            "description_th": "กฎการขยายตัว สถาปัตยกรรมทรานส์ฟอร์มเมอร์ การสังเกตตัวตน การฝึกฝนล่วงหน้า การปรับจูน การถ่ายโอนความรู้ เวกเตอร์บริบท การเรียนรู้ด้วยตัวอย่างน้อย การออกแบบพรอมต์ การก่อกำเนิดที่เสริมด้วยการดึงข้อมูล  ตัวชี้วัดการประเมินผล ข้อควรพิจารณาทางจริยธรรม กลยุทธ์การนำไปใช้ การเพิ่มประสิทธิภาพ ความเข้าใจในแบบจำลอง การคัดเลือกชุดข้อมูล",
             "clos": [
-                "อธิบายหลักการใช้แบบจำลองภาษาขนาดใหญ่",
-                "สร้างระบบการประมวลผลข้อความ ความหมายและไวยกรณ์ได้",
-                "ใช้เครื่องมือและเทคโนโลยีที่ทันสมัยเพื่อสร้างเว็บแอพพลิเคชั่นสำหรับเนื้อหา ความรู้และการสนทนาได้"
-
+                "วิเคราะห์และประเมินสถาปัตยกรรมทรานส์ฟอร์มเมอร์ และกลไกการสังเกตตัวตน ในการออกแบบแบบจำลองภาษาขนาดใหญ่",
+                "ประยุกต์ใช้เทคนิคการเทรนล่วงหน้า การปรับจูน และการถ่ายโอนความรู้เพื่อพัฒนาแบบจำลองภาษาขนาดใหญ่",
+                "สร้างและปรับแต่งพรอมต์ เพื่อเพิ่มประสิทธิภาพของแบบจำลองภาษาขนาดใหญ่ ในการเรียนรู้ด้วยตัวอย่างน้อย",
+                "ประยุกต์ใช้เทคนิคการก่อกำเนิดที่เสริมด้วยการดึงข้อมูล เพื่อเสริมศักยภาพของระบบแบบจำลองภาษาขนาดใหญ่",
+                "ประเมินและปรับปรุงตัวชี้วัดการประเมินผลและการเพิ่มประสิทธิภาพในการวัดความสามารถของแบบจำลองภาษาขนาดใหญ่",
+                "อภิปรายข้อควรพิจารณาทางจริยธรรมและกลยุทธ์การนำไปใช้ในการประยุกต์แบบจำลองภาษาขนาดใหญ่"
             ],
             "los_mapping": [1, 2, 6, 7, 10],
             "plos_mapping": [1, 2, 6, 7, 10]
-
         },
+
 
         "09114708": {
             "title_en": "Applications of Machine Learning in Image and Signal Processing",
             "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านประมวลผลภาพและสัญญาณ",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "Applications of Machine Learning in Image and signal processing: machine learning for analyze image and signal. Image deblurring problem, Gaussian blur, motion blur, out of focus blur, noise reduction, image and signal compression, image preprocessing and augmentation techniques.",
-            "description_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านประมวลผลภาพและสัญญาณ เช่น การใช้การเรียนรู้ของเครื่องสำหรับวิเคราะห์ภาพถ่ายและสัญญาณ ปัญหาภาพเบลอ ภาพเบลอแบบเกาส์เซียน ภาพเบลอแบบเคลื่อนไหว ภาพเบลอแบบหลุดความสนใจ การกำจัดสัญญาณรบกวน การบีบอัดภาพและสัญญาณ เทคนิคการประมวลผลภาพล่วงหน้าและการเพิ่มภาพ ",
+            "description_en": "machine learning algorithms, image processing techniques, signal processing fundamentals, convolutional neural networks, feature extraction, dimensionality reduction, image segmentation, filtering methods, denoising, pattern recognition, time-frequency analysis, Fourier transform, wavelet transform, deep learning frameworks, application case studies",
+            "description_th": "อัลกอริทึมการเรียนรู้ของเครื่อง, เทคนิคการประมวลผลภาพ, พื้นฐานการประมวลผลสัญญาณ, โครงข่ายประสาทเทียมแบบคอนโวลูชัน, การแยกคุณสมบัติ, การลดมิติ, การแบ่งส่วนภาพ, วิธีการกรอง, การลดเสียงรบกวน, การรู้จำรูปแบบ, การวิเคราะห์เวลา-ความถี่, การแปลงฟูเรียร์, การแปลงเวฟเลต, เฟรมเวิร์คการเรียนรู้เชิงลึก, กรณีศึกษาในการประยุกต์ใช้",
             "clos": [
-                "อธิบายหลักการใช้การเรียนรู้ของเครื่องในงานด้านประมวลภาพและสัญญาณได้",
-                "อธิบายการประเภทของปัญหาภาพเบลอและการกำจัดสัญญาณรบกวนของภาพเบลอแบบต่างๆได้",
-                "อธิบายการใช้เทคนิคเครือข่ายประสาทเทียมแบบประสานกับงานด้านประมวลภาพและสัญญาณได้",
-              "สร้างอัลกอรึทึมการเรียนรู้สำหรับการแก้ปัญหาภาพเบลอได้",
-             "ประยุกต์ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
-             "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นการเรียนรู้ในงานด้านประมวลภาพและสัญญาณได้"
+                "วิเคราะห์และประเมินอัลกอริทึมการเรียนรู้ของเครื่องสำหรับงานประมวลผลภาพและสัญญาณ",
+                "ประยุกต์ใช้เทคนิคการประมวลผลภาพและสัญญาณในการออกแบบระบบการเรียนรู้ของเครื่อง",
+                "ออกแบบและพัฒนาระบบโครงข่ายประสาทเทียมสำหรับการแยกคุณสมบัติและแบ่งส่วนภาพ",
+                "เปรียบเทียบและประเมินวิธีการกรองและลดเสียงรบกวนในสัญญาณ",
+                "สร้างและทดสอบกรณีศึกษาในการประยุกต์ใช้การเรียนรู้ของเครื่อง ในงานประมวลผลภาพและสัญญาณ",
+                "สังเคราะห์เทคนิคจากการประมวลผลภาพและสัญญาณเพื่อเพิ่มประสิทธิภาพของแบบจำลองการเรียนรู้ของเครื่อง"
             ],
             "los_mapping": [1, 2, 6, 7, 10],
             "plos_mapping": [1, 2, 6, 7, 10]
@@ -468,18 +471,19 @@
             "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านสุขภาพ ",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "machine learning for disease diagnosis and identifying the types of diseases, data analytic of medical big data.",
-            "description_th": "การใช้การเรียนรู้ของเครื่องสำหรับการวินิจฉัยโรค การใช้การเรียนรู้ของเครื่องสำหรับการระบุชนิดของโรค การวิเคราะห์ข้อมูลขนาดใหญ่ทางการแพทย์",
+            "description_en": "Healthcare data analytics, medical imaging analysis, predictive modeling, electronic health records, bioinformatics, clinical decision support, risk stratification, survival analysis, personalized medicine, anomaly detection, treatment optimization, outcome prediction, patient monitoring",
+            "description_th": "การวิเคราะห์ข้อมูลด้านสุขภาพ, การวิเคราะห์ภาพทางการแพทย์, การสร้างแบบจำลองเชิงพยากรณ์, บันทึกสุขภาพอิเล็กทรอนิกส์, ชีวสารสนเทศ, การสนับสนุนการตัดสินใจทางคลินิก, การแบ่งกลุ่มความเสี่ยง, การวิเคราะห์อัตราการรอดชีวิต, การแพทย์เฉพาะบุคคล, การตรวจจับความผิดปกติ, การเพิ่มประสิทธิภาพการรักษา, การทำนายผลการรักษา, การติดตามผู้ป่วย",
             "clos": [
-                "อธิบายหลักการใช้การเรียนรู้ของเครื่องในงานด้านการแพทย์ได้",
-                "วิเคราะห์ข้อมูลขนาดใหญ่ทางการแพทย์ได้",
-                "สร้างอัลกอรึทึมการเรียนรู้สำหรับการวินิจฉัยโรคได้",
-              "ประยุกต์ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
-             "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นการเรียนรู้ในงานด้านการแพทย์ได้"
+                "วิเคราะห์และประเมินเทคนิคการวิเคราะห์ข้อมูลด้านสุขภาพเพื่อสนับสนุนการตัดสินใจทางคลินิก",
+                "ประยุกต์ใช้แบบจำลองเชิงพยากรณ์ในงานวิเคราะห์ภาพทางการแพทย์และการทำนายผลการรักษา",
+                "ออกแบบและพัฒนาระบบสนับสนุนการตัดสินใจทางคลินิกโดยใช้เทคนิคการเรียนรู้ของเครื่อง",
+                "ประเมินและเปรียบเทียบประสิทธิภาพของโมเดลการคาดการณ์ผลการรักษาและการจัดการข้อมูลผู้ป่วย",
+                "สังเคราะห์แนวคิดการแพทย์เฉพาะบุคคลและการแบ่งกลุ่มความเสี่ยงเพื่อเพิ่มประสิทธิภาพการรักษา",
+                "สร้างและทดสอบระบบติดตามผู้ป่วยและการตรวจจับความผิดปกติในข้อมูลทางการแพทย์"
             ],
             "los_mapping": [1, 2, 6, 7, 10],
             "plos_mapping": [1, 2, 6, 7, 10]
@@ -490,18 +494,18 @@
             "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในด้านธุรกิจและการเงิน",
             "type": 4,
             "group": 1,
-            "credits": 2,
+            "credits": 3,
             "lecture_hr": 2,
-            "lab_hr": 0,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "Application of machine learning in business and finance: machine learning for stock trend analysis and making business decisions.",
-            "description_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านธุรกิจและการเงิน เช่น การใช้การเรียนรู้ของเครื่องสำหรับการวิเคราะห์แนวโน้มของหุ้น การใช้การเรียนรู้ของเครื่องสำหรับการตัดสินใจทางธุรกิจ",
+            "description_en": "Business data analytics, predictive modeling, risk assessment, fraud detection, algorithmic trading, portfolio optimization, customer segmentation, sentiment analysis, supply chain optimization, decision support systems, revenue forecasting",
+            "description_th": "การวิเคราะห์ข้อมูลทางธุรกิจ, การสร้างแบบจำลองเชิงพยากรณ์, การประเมินความเสี่ยง, การตรวจจับการฉ้อโกง, การซื้อขายอัตโนมัติ, การเพิ่มประสิทธิภาพพอร์ตโฟลิโอ, การแบ่งกลุ่มลูกค้า, การวิเคราะห์ความคิดเห็น, การเพิ่มประสิทธิภาพห่วงโซ่อุปทาน, ระบบสนับสนุนการตัดสินใจ, การทำนายรายได้",
             "clos": [
-                "อธิบายหลักการใช้การเรียนรู้ของเครื่องในงานด้านธุรกิจและการเงิน",
-                "สร้างอัลกอรึทึมการเรียนรู้สำหรับการการตัดสินใจทางธุรกิจและการลงทุน",
-                "ประยุกต์ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
-              "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นการเรียนรู้ในงานด้านธุรกิจและการเงินได้"
-
+                "วิเคราะห์และประเมินเทคนิคการวิเคราะห์ข้อมูลเพื่อสนับสนุนการตัดสินใจในธุรกิจและการเงิน",
+                "ประยุกต์ใช้แบบจำลองเชิงพยากรณ์ในการวิเคราะห์ความเสี่ยงและตรวจจับการฉ้อโกง",
+                "ออกแบบและพัฒนาระบบการซื้อขายอัตโนมัติและการเพิ่มประสิทธิภาพพอร์ตโฟลิโอ",
+                "สร้างและปรับแต่งแบบจำลองการแบ่งกลุ่มลูกค้าและการวิเคราะห์ความคิดเห็นเพื่อเพิ่มความแม่นยำ",
+                "สังเคราะห์ข้อมูลจากห่วงโซ่อุปทานและการทำนายรายได้เพื่อปรับปรุงการวางแผนธุรกิจ"
             ],
             "los_mapping": [1, 2, 6, 7, 10],
             "plos_mapping": [1, 2, 6, 7, 10]
@@ -512,8 +516,8 @@
             "title_th": "หัวข้อพิเศษของการเรียนรู้ของเครื่อง ",
             "type": 4,
             "group": 1,
-            "credits": 2,
-            "lecture_hr": 2,
+            "credits": 3,
+            "lecture_hr": 3,
             "lab_hr": 0,
             "prereq": "",
             "description_en": "Theoretical advances for applications of machine learning, specific topics based on contemporary advances in science and technology, interests of individual instructor and students.",
@@ -582,9 +586,9 @@
             "description_th": "นักศึกษาต้องทำวิทยานิพนธ์ภายใต้คำแนะนำของอาจารยที่ปรึกษาที่ได้รับการแต่ง ตั้งโดยบัณฑิตวิทยาลัย นักศึกษาต้องปฏิบัติตามกูฏและข้อบังคับที่กำหนดโดยภาควิชาและบัณฑิตวิทยาลัยอย่างเคร่งครัด",
             "clos": [
                 "ศึกษา ค้นคว้าและอธิบายองค์ความรู้จากงานวิจัยด้านการประยุกต์คณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่องได้",
-                 "ออกแบบกระบวนการทำวิจัยและดำเนินการทำวิจัยได้อย่างถูกต้องตามหลักจริยธรรมของการวิจัยและจรรยาบรรณของนักวิจัย",
-                  "สร้างหรือพัฒนาองค์ความรู้งานวิจัยด้านการประยุกต์คณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่องได้ รวมถึงประยุกต์ใช้เทคโนโลยีและองค์ความรู้ที่จากงานวิจัยเพื่อการแก้ปัญหาหรือพัฒนานวัตกรรมได้",
-                  "เขียนรายงานวิจัยและนำเสนอผลงานวิจัยเป็นภาษาอังกฤษได้"
+                "ออกแบบกระบวนการทำวิจัยและดำเนินการทำวิจัยได้อย่างถูกต้องตามหลักจริยธรรมของการวิจัยและจรรยาบรรณของนักวิจัย",
+                "สร้างหรือพัฒนาองค์ความรู้งานวิจัยด้านการประยุกต์คณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่องได้ รวมถึงประยุกต์ใช้เทคโนโลยีและองค์ความรู้ที่จากงานวิจัยเพื่อการแก้ปัญหาหรือพัฒนานวัตกรรมได้",
+                "เขียนรายงานวิจัยและนำเสนอผลงานวิจัยเป็นภาษาอังกฤษได้"
             ],
             "los_mapping": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
             "plos_mapping": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
