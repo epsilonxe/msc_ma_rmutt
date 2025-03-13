@@ -2,22 +2,23 @@
     "courses": {
 
         "09110601": {
-            "title_en": "Research Methodology",
-            "title_th": "ระเบียบวิธีวิจัย",
+            "title_en": "Data Digitalization",
+            "title_th": "การนำเข้าข้อมูลสู่รูปแบบดิจิทัล",
             "type": 0,
             "group": 1,
             "credits": 3,
-            "lecture_hr": 3,
-            "lab_hr": 0,
+            "lecture_hr": 2,
+            "lab_hr": 2,
             "prereq": "",
-            "description_en": "Research process, research types, research problem determination, literature review; conjecture or assumption construction, proposal and research report writing, reference writing, ethics of researchers, research techniques in computational optimization and machine learning, English for research writing.",
-            "description_th": "กระบวนการทำวิจัย ประเภทการวิจัย การกำหนดปัญหาการวิจัย การทบทวนวรรณกรรม การสร้างข้อคาดการณ์หรือสมมติฐานการวิจัย การเขียนโครงร่างและรายงานการวิจัย การอ้างอิงผลงาน การนำเสนอผลงานวิจัยจรรยาบรรณของนักวิจัย เทคนิควิธีการวิจัยเฉพาะทางการหาค่าเหมาะที่สุดเชิงคำนวณและการเรียนรู้ของเครื่อง ภาษาอังกฤษเพื่อการเขียนงานวิจัย ",
+            "description_en": "Data manipulation, data storage, basic data analysis, coordinate systems, axes, color scales, figure design, information visualization, digital transformation fundamentals, structured data integration, visualization techniques",
+            "description_th": "การจัดการข้อมูล, การเก็บข้อมูล, การวิเคราะห์ข้อมูลพื้นฐาน, ระบบพิกัด, แกน, สเกลสี, การออกแบบภาพ, การแสดงข้อมูล, หลักการเปลี่ยนแปลงข้อมูลดิจิทัล, การบูรณาการข้อมูล, เทคนิคการแสดงผล",
             "clos": [
-                "ออกแบบและวางแผนการทำวิจัยได้อย่างถูกต้องตามกระบวนการการทำวิจัยทางวิทยาศาสตร์",
-                 "เขียนรายงานวิจัยและนำเสนอผลงานวิจัยเป็นภาษาอังกฤษได้"
+                "เข้าใจหลักการพื้นฐานของการจัดการและนำเสนอข้อมูลในรูปแบบดิจิทัล",
+                "ประยุกต์ใช้เทคโนโลยีสมัยใหม่ในการจัดการและแสดงผลข้อมูล",
+                "ออกแบบการนำเสนอข้อมูลที่มีประสิทธิภาพและชัดเจน"
             ],
-            "los_mapping": [3, 8, 10],
-            "plos_mapping": [3, 8, 10]
+            "los_mapping": [6, 8, 10],
+            "plos_mapping": [6, 8, 10]
         },
 
         "09110602": {
@@ -32,12 +33,12 @@
             "description_en": "Seminar on articles selected from scientific journals focusing on topics concerning computational optimization and machine learning, the students are obliged to analyze, summaries, give an oral presentation, discuss, and answer the questions, required written report and presentation the selected topics.",
             "description_th": "ศึกษาค้นคว้าบทความที่อยู่ในฐานข้อมูลทางวิทยาศาสตร์ นำเสนอผลการวิจัย วิเคราะห์ อภิปราย สรุปผล ตั้ง คำถามและตอบคำถามจากผู้ร่วมสัมมนาได้ นักศึกษาต้องเขียนรายงานและนำเสนอต่อคณะกรรมการของสาขาวิชา",
             "clos": [
-                "อธิบายบทความวิจัยที่เกี่ยวข้องกับการคำนวณเชิงคณิตศาสตร์และการเรียนรู้ของเครื่องในปัจจุบันได้",
+                "อธิบายบทความวิจัยที่เกี่ยวข้องกับการคำนวณเชิงคณิตศาสตร์หรือการเรียนรู้ของเครื่องในปัจจุบันได้",
                 "วิเคราะห์ อภิปราย สรุปผล และตอบคำถามจากผู้เข้าร่วมสัมมนาได้ ",
                 "นำเสนอหัวข้อที่เลือกในรูปแบบภาษาไทยและภาษาอังกฤษได้"
             ],
-            "los_mapping": [8, 10],
-            "plos_mapping": [8, 10]
+            "los_mapping": [1, 2, 6, 8, 10],
+            "plos_mapping": [1, 2, 6, 8, 10]
         },
 
         "09111601": {
@@ -52,11 +53,10 @@
             "description_en": "Basic theories in statistics for machine learning, probability, discrete random variables, continuous random variables, joint distributions, expectation, conditional expectation, statistical limit theorems, estimation of parameters, maximum likelihood estimation, Bayesian approach to parameter estimation, hypothesis testing, confidence intervals, random processes.",
             "description_th": "ทฤษฎีพื้นฐานในสถิติสำหรับการเรียนรู้ของเครื่อง ความน่าจะเป็น ตัวแปรสุ่มแบบไม่ต่อเนื่อง ตัวแปรสุ่มแบบต่อเนื่อง การแจกแจงร่วม ค่าคาดหวัง ค่าคาดหวังแบบมีเงื่อนไข ทฤษฎีลิมิตทางสถิติ การประมาณค่าพารามิเตอร์ การประมาณภาวะน่าจะเป็นสูงสุด วิธีการแบบเบย์ในการประมาณค่าพารามิเตอร์ การทดสอบสมมติฐาน ช่วงความเชื่อมั่น กระบวนการเฟ้นสุ่ม",
             "clos": [
-                "อธิบายการหาความน่าจะเป็นของเหตุการณ์ในรูปแบบต่างๆได้",
-                 "อธิบายการหาค่าคาดหวังแบบมีเงื่อนไขของตัวแปรสุ่มแบบไม่ต่อเนื่องและแบบต่อเนื่อง",
-                  "อธิบายการเลือกใช้วิธีทางสถิติในการประมาณค่าพารามิเตอร์ต่างๆกับชุดข้อมูลที่มีความหลากหลายได้อย่างเหมาะสม",
-                  "ใช้เครื่องมือมาช่วยในการวิเคราะห์ข้อมูลและนำเสนอข้อมูลได้"
-
+                "คำนวณความน่าจะเป็นของเหตุการณ์ต่าง ๆ โดยใช้เทคนิคสถิติที่เหมาะสม",
+                "อธิบายความหมายของค่าคาดหวังแบบมีเงื่อนไขสำหรับตัวแปรสุ่มทั้งแบบไม่ต่อเนื่องและแบบต่อเนื่อง",
+                "คำนวณค่าคาดหวังแบบมีเงื่อนไขสำหรับตัวแปรสุ่มแบบไม่ต่อเนื่อง",
+                "คำนวณค่าคาดหวังแบบมีเงื่อนไขสำหรับตัวแปรสุ่มแบบต่อเนื่อง"
             ],
             "los_mapping": [2, 10],
             "plos_mapping": [2, 10]
@@ -72,69 +72,67 @@
             "lecture_hr": 3,
             "lab_hr": 0,
             "prereq": "",
-            "description_en": "Matrices and matrix algebra, system of linear equation and solving systems of linear equations, vector space, linear Independence, basis, orthonormal basis, linear transformation, eigen value and eigen vector, diagonalization of matrices, norm, inner product, lengths and distances, orthogonal complement, matrix decompositions, Cholesky decomposition, matrix approximation.",
-            "description_th": "เมทริกซ์และการดำเนินการบนเมทริกซ์ ระบบสมการเชิงเส้นและการหาผลเฉลย ปริภูมิเวกเตอร์ ความเป็นอิสระเชิงเส้น ฐานหลัก ฐานหลักเชิงตั้งฉาก การแปลงเชิงเส้น ค่าเจาะจงและเวกเตอร์เจาะจง การทำให้เป็นเมทริกซ์ทแยงมุม นอร์ม ผลคูณภายใน ความยาวและระยะทาง ส่วนประกอบเชิงตั้งฉาก การแยกเมทริกซ์ การแยกโชเลสกี การประมาณค่าเมทริกซ์",
+            "description_en": "Matrices and matrix algebra, system of linear equation and solving systems of linear equations, vector space, linear Independence, basis, orthonormal basis, linear transformation, eigen value and eigen vector, diagonalization of matrices, norm, inner product, lengths and distances, orthogonal complement, matrice spaces",
+            "description_th": "เมทริกซ์และการดำเนินการบนเมทริกซ์ ระบบสมการเชิงเส้นและการหาผลเฉลย ปริภูมิเวกเตอร์ ความเป็นอิสระเชิงเส้น ฐานหลัก ฐานหลักเชิงตั้งฉาก การแปลงเชิงเส้น ค่าเจาะจงและเวกเตอร์เจาะจง การทำให้เป็นเมทริกซ์ทแยงมุม นอร์ม ผลคูณภายใน ความยาวและระยะทาง ส่วนประกอบเชิงตั้งฉาก ปริภูมิเมตริก ",
             "clos": [
-                "อธิบายการหาพีชคณิตของเมทริกซ์และหาผลเฉลยของระบบสมการเชิงเส้นได้",
-                "อธิบายความเป็นอิสระเชิงเส้น ฐานหลัก และอธิบายการหามิติของเวกเตอร์ได้",
-                "อธิบายการหาค่าเจาะจงและเวกเตอร์เจาะจงได้",
-                "อธิบายการหาความยาว ระยะทางและส่วนประกอบเชิงตั้งฉากของเวกเตอร์ได้",
-                "อธิบายการเขียนเมทริกซ์ให้อยู่ในรูปของการแยกเมทริกซ์ได้",
-                 "ใช้เครื่องมือมาช่วยในการคำนวณเพื่อแก้ปัญหาทางคณิตศาสตร์ได้"
+                "หาผลเฉลยของระบบสมการเชิงเส้น",
+                "จำแนกความเป็นอิสระเชิงเส้นของเวกเตอร์",
+                "คำนวณมิติของปริภูมิเวกเตอร์",
+                "หาค่าเจาะจงและเวกเตอร์เจาะจงของเมตริกซ์ได้",
+                "หาความยาว ระยะทาง และส่วนประกอบเชิงตั้งฉากของเวกเตอร์",
+                "ใช้เครื่องมือช่วยการคำนวณเพื่อแก้ปัญหาทางเวกเตอร์และเมทริกซ์"
             ],
             "los_mapping": [1, 2, 10],
             "plos_mapping": [1, 2, 10]
         },
 
         "09111603": {
-            "title_en": "Supervised Machine Learning",
-            "title_th": "การเรียนรู้ของเครื่องแบบมีผู้สอน",
+            "title_en": "Machine Learning 1",
+            "title_th": "การเรียนรู้ของเครื่อง 1",
             "type": 1,
             "group": 1,
             "credits": 3,
             "lecture_hr": 2,
             "lab_hr": 2,
             "prereq": "",
-            "description_en": "Concepts and principles of supervised machine learning, data preparation, learning algorithm, such as linear regression, multiple linear regression, logistic regression, k-nearest neighbors, decision tree. Model evaluation, application model to forecasting and data classification.",
-            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่องแบบมีผู้สอน การเตรียมข้อมูล ขั้นตอนการเรียนรู้ เช่น การถดถอยเชิงเส้น การถดถอยเชิงเส้นพหุคูณ การถดถอยโลจีสติกส์ ย่านใกล้เคียงที่สุดเค เบย์อย่างง่าย ต้นไม้ตัดสินใจ การทดสอบประสิทธิภาพตัวแบบ การใช้ตัวแบบไปประยุกต์ใช้ในการพยากรณ์และการจำแนกข้อมูล",
+            "description_en": "Concepts and principles of machine learning, data preparation, learning algorithm, such as linear regression, multiple linear regression, logistic regression, k-nearest neighbors, decision tree. Model evaluation, application model to forecasting and data classification.",
+            "description_th": "แนวคิดและหลักการของการเรียนรู้ของเครื่อง การเตรียมข้อมูล ขั้นตอนการเรียนรู้ เช่น การถดถอยเชิงเส้น การถดถอยเชิงเส้นพหุคูณ การถดถอยโลจีสติกส์ ย่านใกล้เคียงที่สุดเค เบย์อย่างง่าย ต้นไม้ตัดสินใจ การทดสอบประสิทธิภาพตัวแบบ การใช้ตัวแบบไปประยุกต์ใช้ในการพยากรณ์และการจำแนกข้อมูล",
             "clos": [
-                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องแบบมีผู้สอนได้",
+                "อธิบายแนวคิดและหลักการของการเรียนรู้ของเครื่องได้",
                 "อธิบายการเลือกใช้อัลกอริทึมแบบมีผู้สอนที่เหมาะสมสำหรับข้อมูลที่มีความหลากหลายได้",
                 "สร้างหรือพัฒนาแบบอัลกอริทึมแบบมีผู้สอนในการพยากรณ์และการจำแนกข้อมูลได้",
                 "วิเคราะห์ประสิทธิภาพของอัลกอริทึมแบบมีผู้สอนได้",
-                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้",
-                "ออกแบบ สร้างหรือพัฒนาเว็บแอพพลิเคชั่นสำหรับการเรียนรู้ได้"
+                "ใช้เครื่องมือการเรียนรู้ของเครื่องช่วยในการตัดสินใจในการแก้ปัญหาจริงได้"
             ],
-            "los_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10],
-            "plos_mapping": [1, 2, 4, 5, 6, 7, 8, 9, 10]
+            "los_mapping": [1, 2, 5, 6, 10],
+            "plos_mapping": [1, 2, 5, 6, 10]
 
         },
 
         "09111704": {
             "title_en": "Optimization for Machine Learning",
             "title_th": "การหาค่าเหมาะที่สุดสำหรับการเรียนรู้ของเครื่อง",
-            "type": 1,
+            "type": 3,
             "group": 1,
             "credits": 3,
             "lecture_hr": 3,
             "lab_hr": 0,
             "prereq": "",
-            "description_en": "Basic theories of optimization, constrained optimization, unconstrained optimization, smooth and nonsmooth optimization, first-order optimization algorithms, second-order optimization algorithms, stochastic gradient descent algorithm, proximal gradient method, algorithm implementation in Python.",
-            "description_th": "ทฤษฎีพื้นฐานของปัญหาการหาค่าเหมาะที่สุด ปัญหาการหาค่าเหมาะที่สุดแบบมีข้อจำกัด ปัญหาการหาค่าเหมาะที่สุดแบบไม่มีข้อจำกัด ปัญหาการหาค่าเหมาะที่สุดแบบปรับเรียบ และไม่ปรับเรียบ อัลกอริทึมค่าเหมาะที่สุดอันดับหนึ่ง อัลกอริทึมค่าเหมาะที่สุดอันดับสอง อัลกอริทึมเคลื่อนลงตามความชันสโตแคสติก อัลกอริทึมเคลื่อนลงแบบใกล้เคียง การใช้โปรแกรมไพธอนในการพัฒนาอัลกอริทึม",
+            "description_en": "Basic theories of optimization, constrained optimization, unconstrained optimization, smooth and nonsmooth optimization, first-order optimization algorithms, second-order optimization algorithms, stochastic gradient descent algorithm, proximal gradient method",
+            "description_th": "ทฤษฎีพื้นฐานของปัญหาการหาค่าเหมาะที่สุด ปัญหาการหาค่าเหมาะที่สุดแบบมีข้อจำกัด ปัญหาการหาค่าเหมาะที่สุดแบบไม่มีข้อจำกัด ปัญหาการหาค่าเหมาะที่สุดแบบปรับเรียบ และไม่ปรับเรียบ อัลกอริทึมค่าเหมาะที่สุดอันดับหนึ่ง อัลกอริทึมค่าเหมาะที่สุดอันดับสอง อัลกอริทึมเคลื่อนลงตามความชันสโตแคสติก อัลกอริทึมเคลื่อนลงแบบใกล้เคียง",
             "clos": [
                 "อธิบายหลักการพื้นฐานของปัญหาการหาค่าเหมาะที่สุดแบบมีข้อจำกัด ไม่มีข้อจำกัด ปรับเรียบ ไม่ปรับเรียบและความเกี่ยวข้องกับการเรียนรู้ของเครื่องได้",
                 "วิเคราะห์และเลือกอัลกอริทึมค่าเหมาะที่สุดอันดับหนึ่ง อัลกอริทึมค่าเหมาะที่สุดอันดับสอง อัลกอริทึมเคลื่อนลงตามความชันสโตแคสติก อัลกอริทึมเคลื่อนลงแบบใกล้เคียงเพื่อแก้ปัญหาการหาค่าเหมาะที่สุดได้",
-                "พัฒนาอัลกอริทึมค่าเหมาะที่สุดโดยใช้ภาษาโปรแกรมได้",
                 "วิเคราะห์และเลือกเทคนิคการหาค่าเหมาะที่สุดสำหรับการเรียนรู้ของเครื่องได้"
             ],
-            "los_mapping": [1, 6, 10],
-            "plos_mapping": [1, 6, 10]
+            "los_mapping": [1, 2, 6, 10],
+            "plos_mapping": [1, 2, 6, 10]
         },
 
         "09111705": {
             "title_en": "Data Structures and Algorithms for Machine Learning",
             "title_th": "โครงสร้างข้อมูลและอัลกอริทึมสำหรับการเรียนรู้ของเครื่อง",
-            "type": 1,
+            "type": 4,
             "group": 1,
             "credits": 3,
             "lecture_hr": 3,
@@ -143,11 +141,11 @@
             "description_en": "Concepts of data structures, fundamental data structures, operations of data structures, basic searching and sorting techniques, data structure analysis, applications and problem solving algorithms for machine learning processes.",
             "description_th": "แนวคิดของโครงสร้างข้อมูล โครงสร้างข้อมูลเบื้องต้น การดำเนินการบนโครงสร้างข้อมูล เทคนิคการค้นและเทคนิคการเรียงลำดับ การวิเคราะห์โครงสร้างข้อมูล การประยุกต์และอัลกอริทึมสำหรับการแก้ปัญหาในกระบวนการของการเรียนรู้ของเครื่อง",
             "clos": [
-                "อธิบายหลักการและแนวคิดพื้นฐานของลิงก์ลิสต์ ทรีแบบทวิภาค ฮีป อาร์เรย์แบบพลวัต สแต็ก คิว เซต แฮชชิง กราฟได้",
-                "วิเคราะห์และเลือกอัลกอริทึมการเรียงลำดับและค้นหาข้อมูล อัลกอริทึมโปรแกรมเชิงพลวัต อัลกอริทึมแบบสุ่ม และอัลกอริทึมเชิงเส้นย่อยได้"
+                "อธิบายหลักการและแนวคิดของลิงก์ลิสต์ ทรีแบบทวิภาค ฮีป อาร์เรย์แบบพลวัต สแต็ก คิว เซต แฮชชิง และ กราฟ",
+                "วิเคราะห์และเลือกอัลกอริทึมการเรียงลำดับและค้นหาข้อมูล อัลกอริทึมโปรแกรมเชิงพลวัต อัลกอริทึมแบบสุ่ม และอัลกอริทึมเชิงเส้นย่อยให้เหมาะสมกับปัญหา"
             ],
-            "los_mapping": [1, 6, 10],
-            "plos_mapping": [1, 6, 10]
+            "los_mapping": [1, 2, 6, 10],
+            "plos_mapping": [1, 2, 6, 10]
         },
 
         "09112601": {
@@ -162,10 +160,10 @@
             "description_en": "Metric space, normed space, Banach spaces, linear operator, inner product and Hilbert spaces, Hahn-Banach theorem, uniform boundedness theorem, dual space.",
             "description_th": "ปริภูมิเมตริก ปริภูมินอร์ม ปริภูมิบานาค ตัวดำเนินการเชิงเส้น ปริภูมิผลคูณภายในและปริภูมิฮิลเบิร์ต ทฤษฎีบทฮาห์น-บานาค ทฤษฎีบทการมีขอบเขตแบบเอกรูป ปริภูมิคู่กัน",
             "clos": [
-                "อธิบายทฤษฎีบทที่เกี่ยวข้องกับปริภูมิฮิลเบิร์ตและปริภูมิบานาคได้",
-                 "อธิบายทฤษฎีบทเกี่ยวกับตัวดำเนินการเชิงเส้นและปริภูมิคู่กัน",
-                  "อธิบายทฤษฎีที่เกี่ยวข้องกับทฤษฎีบทฮาห์น-บานาคและทฤษฎีบทการมีขอบเขตแบบเอกรูป"
-
+                "อธิบายทฤษฎีบทที่เกี่ยวข้องกับปริภูมิฮิลเบิร์ตและปริภูมิบานาค",
+                "อธิบายทฤษฎีบทเกี่ยวกับตัวดำเนินการเชิงเส้นและปริภูมิคู่กัน",
+                "อธิบายทฤษฎีบทฮาห์น-บานาค",
+                "อธิบายทฤษฎีบทการมีขอบเขตแบบเอกรูป"
             ],
             "los_mapping": [2, 10],
             "plos_mapping": [2, 10]
@@ -237,21 +235,22 @@
         },
 
         "09113603": {
-            "title_en": "Intelligence Decision Making with Operation Research",
-            "title_th": "การตัดสินใจอย่างชาญฉลาดด้วยกำหนดการวิจัยดำเนินงาน",
-            "type": 3,
+            "title_en": "Intelligence Decision Making",
+            "title_th": "การตัดสินใจอย่างชาญฉลาด",
+            "type": 1,
             "group": 1,
             "credits": 3,
             "lecture_hr": 2,
             "lab_hr": 2,
             "prereq": "",
-            "description_en": "Linear programming: linear programming model and graphical solution, principles of the simplex method, dual problem and sensitivity analysis, principles of the dual simplex method, transportation models and its applications, logistics problems, network problems, investment problems, dynamic programming, development to operation research as an application to assist decision making.",
-            "description_th": "กำหนดการเชิงเส้น: ตัวแบบกำหนดการเชิงเส้นและการหาผลเฉลยโดยวิธีกราฟ หลักการของวิธีซิมเพล็กซ์ ปัญหาควบคู่และการวิเคราะห์ความไว หลักการของวิธีซิมเพล็กซ์ควบคู่ ปัญหาการขนส่ง ปัญหาเครือข่าย ปัญหาการลงทุน กำหนดการพลวัต การพัฒนาแอพพลิเคชั่นช่วยตัดสินใจในการแก้ปัญหาโดยใช้การวิจัยดำเนินงาน",
+            "description_en": "Linear programming: linear programming model and graphical solution, principles of the simplex method, dual problem and sensitivity analysis, principles of the dual simplex method, transportation models and its applications, logistics problems, network problems, investment problems, dynamic programming, integer programming, goal programming",
+            "description_th": "กำหนดการเชิงเส้น: ตัวแบบกำหนดการเชิงเส้นและการหาผลเฉลยโดยวิธีกราฟ หลักการของวิธีซิมเพล็กซ์ ปัญหาควบคู่และการวิเคราะห์ความไว หลักการของวิธีซิมเพล็กซ์ควบคู่ ปัญหาการขนส่ง ปัญหาเครือข่าย ปัญหาการลงทุน กำหนดการพลวัต กำหนดการจำนวนเต็ม กำหนดการเป้าหมาย",
             "clos": [
                 "อธิบายหลักการของกำหนดการเชิงเส้นและการหาผลเฉลย",
-                "อธิบายหลักการของปัญหาการขนส่ง ปัญหาเครือข่าย ปัญหาการลงทุน",
-                "อธิบายการใช้กำหนดการพลวัตได้",
-                "พัฒนาแอพพลิเคชั่นช่วยตัดสินใจในการแก้ปัญหาได้"
+                "เขียนตัวแบบของปัญหาการขนส่ง ปัญหาเครือข่าย หรือปัญหาการลงทุนในรูปแบบกำหนดการเชิงเส้น",
+                "ใช้กำหนดการเชิงเส้นในการแก้ปัญหาปัญหาการขนส่ง ปัญหาเครือข่าย หรือปัญหาการลงทุน",
+                "ใช้กำหนดการพลวัตในการแก้ปัญหาปัญหาการขนส่ง ปัญหาเครือข่าย หรือปัญหาการลงทุน",
+                "พัฒนาแอพพลิเคชันช่วยตัดสินใจในการแก้ปัญหาได้"
             ],
             "los_mapping": [1, 6, 10],
             "plos_mapping": [1, 6, 10]
@@ -281,8 +280,8 @@
 
 
 "09114601": {
-            "title_en": "Unsupervised Machine Learning",
-            "title_th": "การเรียนรู้ของเครื่องแบบไม่มีผู้สอน",
+            "title_en": "Machine Learning 2",
+            "title_th": "การเรียนรู้ของเครื่อง 2",
             "type": 4,
             "group": 1,
             "credits": 3,
@@ -332,7 +331,7 @@
         "09114703": {
             "title_en": "Deep Learning and Applications",
             "title_th": "การเรียนรู้เชิงลึกและการประยุกต์  ",
-            "type": 4,
+            "type": 1,
             "group": 1,
             "credits": 2,
             "lecture_hr": 2,
@@ -461,16 +460,16 @@
         },
 
         "09114709": {
-            "title_en": "Applications of Machine Learning in Medical",
-            "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านการแพทย์ ",
+            "title_en": "Applications of Machine Learning in Healthcare",
+            "title_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในงานด้านสุขภาพ ",
             "type": 4,
             "group": 1,
             "credits": 2,
             "lecture_hr": 2,
             "lab_hr": 0,
             "prereq": "",
-            "description_en": "Application of machine learning in the medical: machine learning for disease diagnosis and identifying the types of diseases, data analytic of medical big data.",
-            "description_th": "การประยุกต์ใช้การเรียนรู้ของเครื่องในด้านการแพทย์ เช่น การใช้การเรียนรู้ของเครื่องสำหรับการวินิจฉัยโรค การใช้การเรียนรู้ของเครื่องสำหรับการระบุชนิดของโรค การวิเคราะห์ข้อมูลขนาดใหญ่ทางการแพทย์",
+            "description_en": "machine learning for disease diagnosis and identifying the types of diseases, data analytic of medical big data.",
+            "description_th": "การใช้การเรียนรู้ของเครื่องสำหรับการวินิจฉัยโรค การใช้การเรียนรู้ของเครื่องสำหรับการระบุชนิดของโรค การวิเคราะห์ข้อมูลขนาดใหญ่ทางการแพทย์",
             "clos": [
                 "อธิบายหลักการใช้การเรียนรู้ของเครื่องในงานด้านการแพทย์ได้",
                 "วิเคราะห์ข้อมูลขนาดใหญ่ทางการแพทย์ได้",
