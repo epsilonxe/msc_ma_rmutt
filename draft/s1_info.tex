@@ -1,8 +1,24 @@
 \cleardoublepage
 \setcounter{page}{1}
-\pagestyle{headings}
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+{
+\cleardoublepage% Move to first page of new chapter
+\let\clearpage\relax% Don't allow page break
+
+\begin{center}
+{\Large\bfseries หลักสูตร\thdegree\\ สาขาวิชา\thdegreebranch \\(หลักสูตรใหม่ พ.ศ. 2569)}	
+\end{center}
+\vspace{3mm}
+\begin{tabular}{p{0.3\textwidth}p{0.5\textwidth}}
+\textbf{ชื่อสถาบันอุดมศึกษา} & \university \\
+\textbf{คณะ/สาขาวิชา} & \faculty \department	
+\end{tabular}
+\vspace{10mm}
 
 \chapter{ข้อมูลทั่วไป}
+}
 
 \section{รหัสและชื่อหลักสูตร}
 
