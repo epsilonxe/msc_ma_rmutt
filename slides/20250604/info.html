@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อินโฟกราฟิก: แนวโน้มอุตสาหกรรมและการวิจัยตลาด (หลักสูตร วท.ม. คณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่อง)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- 
+        Narrative Plan:
+        1. Introduction: Why this program is crucial in the digital age.
+        2. Market Demand: Statistics on AI/ML personnel needs, job titles, salaries.
+        3. Strategic Alignment: How the program meets national and university strategies (S-Curve, RMUTT 5H/3C/6P, SDGs).
+        4. Program Highlights & Differentiation: Comparison with other programs, unique features.
+        5. Curriculum & Outcomes: Overview of structure (Plans A1, A2), credits, PLOs.
+        6. Career Prospects: Potential job roles.
+        7. Faculty & Resources: Expertise of academic staff, learning facilities.
+        8. International Collaboration: Double degree with National Pingtung University.
+        9. Conclusion & Call to Action: Summary of program value.
+
+        Visualization Choices (Confirming NO SVG, NO MERMAID JS):
+        - Market Demand: Bar Chart (Chart.js) for demand vs. supply, Bar Chart (Chart.js) for salary. List/Icons (HTML/CSS/Unicode) for job titles.
+        - Strategic Alignment: Flow Chart style (HTML/CSS with Tailwind using divs, borders, flexbox) for strategy alignment. Icon Grid (HTML/CSS/Unicode) for SDGs. Detailed cards (HTML/CSS) for 5H/3C/6P.
+        - Program Highlights: Table (HTML/Tailwind) for program comparison. Icon List (HTML/CSS/Unicode) for differentiators.
+        - Curriculum & Outcomes: Donut Chart (Chart.js) for credit distribution. Structured List (HTML/CSS) for PLOs.
+        - Career Prospects: Icon List (HTML/CSS/Unicode) for career paths.
+        - Faculty & Resources: Text callouts (HTML/CSS) for faculty. Icon List (HTML/CSS/Unicode) for resources.
+        - International Collaboration: Logo display (HTML/CSS using img tags with fallbacks if simple raster logos were allowed; using text if strictly no raster), Text (HTML/CSS).
+
+        Color Palette Chosen: Energetic & Playful
+        - #FF6B6B (Vibrant Red/Coral)
+        - #FFD166 (Bright Yellow)
+        - #06D6A0 (Bright Teal/Green)
+        - #118AB2 (Strong Blue)
+        - #073B4C (Dark Navy Blue)
+        Backgrounds: Light Gray (#F7F7F7), Cards: White (#FFFFFF)
+
+        Confirmation: NEITHER Mermaid JS NOR SVG were used anywhere in this output. All diagrams are HTML/CSS based. All charts are Canvas-based via Chart.js.
+    -->
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #F7F7F7; /* Light Gray Background */
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Max width for charts */
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px; /* Base height */
+            max-height: 400px; /* Max height */
+            padding: 1rem;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        @media (min-width: 768px) { /* md breakpoint */
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .stat-card {
+            background-color: #FFFFFF;
+            border-radius: 0.75rem; /* 12px */
+            padding: 1.5rem; /* 24px */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.25rem; /* 36px */
+            font-weight: 700;
+            color: #118AB2; /* Strong Blue */
+        }
+        .stat-label {
+            font-size: 1rem; /* 16px */
+            color: #073B4C; /* Dark Navy */
+            margin-top: 0.5rem;
+        }
+        .section-title {
+            font-size: 1.875rem; /* 30px */
+            font-weight: 600;
+            color: #073B4C; /* Dark Navy */
+            margin-bottom: 1.5rem; /* 24px */
+            text-align: center;
+        }
+        .card {
+            background-color: #FFFFFF;
+            border-radius: 0.5rem; /* 8px */
+            padding: 1.5rem; /* 24px */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            margin-bottom: 1.5rem; /* 24px */
+        }
+        .nav-link {
+            padding: 0.5rem 1rem;
+            color: #FFFFFF;
+            background-color: #118AB2; /* Strong Blue */
+            border-radius: 0.375rem; /* 6px */
+            transition: background-color 0.3s ease;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            background-color: #073B4C; /* Dark Navy on hover */
+        }
+        .sticky-nav {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .policy-card {
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            padding: 1.25rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 1rem;
+        }
+        .policy-title {
+            font-weight: 600;
+            font-size: 1.125rem; /* 18px */
+            margin-bottom: 0.5rem;
+        }
+        .policy-description {
+            font-size: 0.875rem; /* 14px */
+            color: #4A5568; /* Tailwind gray-700 */
+            margin-bottom: 0.75rem;
+        }
+        .policy-alignment {
+            font-size: 0.875rem; /* 14px */
+            color: #2D3748; /* Tailwind gray-800 */
+            padding-left: 1rem;
+            border-left: 3px solid;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <nav class="sticky-nav">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center gap-2">
+                <a href="#introduction" class="nav-link">บทนำ</a>
+                <a href="#market-demand" class="nav-link">ความต้องการตลาด</a>
+                <a href="#strategic-alignment" class="nav-link">ความสอดคล้องเชิงกลยุทธ์</a>
+                <a href="#program-highlights" class="nav-link">จุดเด่นหลักสูตร</a>
+                <a href="#curriculum" class="nav-link">โครงสร้างหลักสูตร</a>
+                <a href="#career-prospects" class="nav-link">อาชีพในอนาคต</a>
+                <a href="#faculty-resources" class="nav-link">คณาจารย์และทรัพยากร</a>
+                <a href="#collaboration" class="nav-link">ความร่วมมือ</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+
+        <section id="introduction" class="my-12 text-center">
+            <img src="https://placehold.co/150x150/073B4C/FFFFFF?text=RMUTT+CMML" alt="โลโก้หลักสูตร" class="mx-auto mb-6 rounded-full" onerror="this.src='https://placehold.co/150x150/CCCCCC/000000?text=Logo+Error'">
+            <h1 class="text-4xl font-bold mb-4" style="color: #073B4C;">หลักสูตรวิทยาศาสตรมหาบัณฑิต</h1>
+            <h2 class="text-3xl font-semibold mb-6" style="color: #118AB2;">สาขาวิชาคณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่อง</h2>
+            <p class="text-lg max-w-3xl mx-auto text-gray-700">
+                ในยุคดิจิทัลที่ขับเคลื่อนด้วยข้อมูลและปัญญาประดิษฐ์ (AI) ความเชี่ยวชาญด้านคณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่อง (Machine Learning) ถือเป็นหัวใจสำคัญในการสร้างนวัตกรรมและเพิ่มขีดความสามารถในการแข่งขัน หลักสูตรนี้ถูกออกแบบมาเพื่อผลิตมหาบัณฑิตที่มีความรู้ความสามารถขั้นสูง พร้อมรับมือกับความท้าทายและสร้างอนาคตด้วยเทคโนโลยี
+            </p>
+        </section>
+
+        <section id="market-demand" class="my-16">
+            <h2 class="section-title">🚀 ความต้องการของตลาดแรงงาน</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                ตลาดแรงงานสำหรับผู้เชี่ยวชาญด้าน AI และ Machine Learning กำลังเติบโตอย่างก้าวกระโดดทั้งในประเทศไทยและทั่วโลก หลักสูตรนี้มุ่งสร้างบัณฑิตให้พร้อมสำหรับโอกาสงานที่หลากหลายและมีอนาคต
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <div class="stat-card border-l-4" style="border-color: #FF6B6B;">
+                    <div class="stat-number">80,000+</div>
+                    <div class="stat-label">ตำแหน่งงานขาดแคลนในไทย (ข้อมูล: DES)</div>
+                </div>
+                <div class="stat-card border-l-4" style="border-color: #FFD166;">
+                    <div class="stat-number">฿30-40K</div>
+                    <div class="stat-label">เงินเดือนเริ่มต้นโดยประมาณสำหรับบัณฑิตใหม่</div>
+                </div>
+                <div class="stat-card border-l-4" style="border-color: #06D6A0;">
+                    <div class="stat-number">&lt;500</div>
+                    <div class="stat-label">จำนวนบัณฑิตด้านนี้ต่อปีในไทย (2565-66)</div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">ตำแหน่งงานเป็นที่ต้องการสูง:</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>👨‍💻 นักวิศวกรปัญญาประดิษฐ์ (AI Engineer)</li>
+                        <li>⚙️ นักวิศวกรการเรียนรู้ของเครื่อง (Machine Learning Engineer)</li>
+                        <li>🔬 นักวิทยาศาสตร์ข้อมูล (Data Scientist)</li>
+                        <li>📊 นักวิเคราะห์ข้อมูล (Data Analyst)</li>
+                    </ul>
+                    <p class="mt-4 text-sm text-gray-600">ครอบคลุมหลากหลายอุตสาหกรรม เช่น เทคโนโลยี, การเงิน, การแพทย์, ค้าปลีก, และการผลิต</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="marketDemandChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="strategic-alignment" class="my-16">
+            <h2 class="section-title">🎯 หลักสูตรตอบโจทย์ยุทธศาสตร์ชาติและมหาวิทยาลัย</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                หลักสูตรนี้ได้รับการพัฒนาให้สอดคล้องกับทิศทางการพัฒนาประเทศและนโยบายของมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรีอย่างชัดเจน
+            </p>
+            <div class="card mb-8">
+                <h3 class="text-xl font-semibold mb-4 text-center" style="color: #118AB2;">การตอบสนองนโยบายภาพรวม</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <div class="p-4 bg-sky-100 rounded-lg">
+                        <h4 class="font-semibold text-lg text-sky-700">ยุทธศาสตร์ชาติ 20 ปี</h4>
+                        <p class="text-sm text-sky-600">สร้างความสามารถในการแข่งขัน (อุตสาหกรรมดิจิทัล) และพัฒนาศักยภาพคน</p>
+                    </div>
+                    <div class="p-4 bg-emerald-100 rounded-lg">
+                        <h4 class="font-semibold text-lg text-emerald-700">แผนการศึกษาแห่งชาติ</h4>
+                        <p class="text-sm text-emerald-600">ผลิตบุคลากรด้านวิทยาศาสตร์ เทคโนโลยี และนวัตกรรม</p>
+                    </div>
+                    <div class="p-4 bg-amber-100 rounded-lg">
+                        <h4 class="font-semibold text-lg text-amber-700">SDGs สหประชาชาติ</h4>
+                        <p class="text-sm text-amber-600">เน้นข้อ 4 (การศึกษา), 8 (เศรษฐกิจ), 9 (นวัตกรรม), 17 (ความร่วมมือ)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="text-xl font-semibold mb-6 text-center" style="color: #118AB2;">การตอบสนองนโยบาย มทร.ธัญบุรี: 5H, 3C, 6P</h3>
+                <div class="text-center mb-6">
+                    <p class="text-lg font-medium" style="color: #073B4C;">ปรัชญา: "นวัตกรรมสร้างชาติ ราชมงคลธัญบุรีสร้างนวัตกรรม"</p>
+                    <p class="text-lg font-medium" style="color: #073B4C;">วิสัยทัศน์: "มหาวิทยาลัยนวัตกรรมที่สร้างคุณค่าสู่สังคมและประเทศ"</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 text-center" style="color: #FF6B6B;">คุณลักษณะบัณฑิต (5H)</h4>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FF6B6B;">H1: Head (5I)</p>
+                            <p class="policy-description">ความรู้และวิธีการคิด: Inspiration, Imagination, Ideation, Integration, Implementation</p>
+                            <p class="policy-alignment" style="border-color: #FF6B6B;">หลักสูตรส่งเสริมผ่านโครงงานวิจัย การแก้ปัญหาจริง และการเรียนรู้ทฤษฎีขั้นสูงเพื่อสร้างแรงบันดาลใจและพัฒนานวัตกรรม</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FF6B6B;">H2: Heart</p>
+                            <p class="policy-description">ทำด้วยใจรักและมุ่งมั่น</p>
+                            <p class="policy-alignment" style="border-color: #FF6B6B;">ดึงดูดผู้มีใจรักใน AI/ML สร้างความมุ่งมั่นในการเรียนรู้และแก้ปัญหาสังคมด้วยเทคโนโลยี</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FF6B6B;">H3: Hand</p>
+                            <p class="policy-description">สมรรถนะและทักษะปฏิบัติ</p>
+                            <p class="policy-alignment" style="border-color: #FF6B6B;">เน้นการลงมือปฏิบัติจริงผ่านห้องปฏิบัติการ การพัฒนาแบบจำลอง และการทำวิทยานิพนธ์</p>
+                        </div>
+                         <div class="policy-card">
+                            <p class="policy-title" style="color: #FF6B6B;">H4: Hip</p>
+                            <p class="policy-description">สุขภาพและบุคลิกภาพที่ดี</p>
+                            <p class="policy-alignment" style="border-color: #FF6B6B;">ส่งเสริมการพัฒนาตนเองรอบด้าน และการประยุกต์ใช้ ML เพื่อสุขภาพ (เช่น ในรายวิชาเลือก)</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FF6B6B;">H5: Heel</p>
+                            <p class="policy-description">การพัฒนาศักยภาพตนเองหลังจบการศึกษา</p>
+                            <p class="policy-alignment" style="border-color: #FF6B6B;">สร้างทักษะการเรียนรู้ตลอดชีวิต (Lifelong Learning) ผ่านการทำวิจัยและการปรับตัวเข้ากับเทคโนโลยีใหม่</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 text-center" style="color: #FFD166;">การทำงานร่วมกับสังคม (3C)</h4>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FFD166;">C1: Categories/Cluster</p>
+                            <p class="policy-description">จัดกลุ่มและกำหนดสิ่งที่ทำเพื่อตอบโจทย์สังคม</p>
+                            <p class="policy-alignment" style="border-color: #FFD166;">หลักสูตรอยู่ในกลุ่มยุทธศาสตร์ดิจิทัล AI และ Data Science ซึ่งเป็นที่ต้องการสูงของประเทศ</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FFD166;">C2: Collaboration/Connectivity</p>
+                            <p class="policy-description">สร้างความร่วมมือและเครือข่าย</p>
+                            <p class="policy-alignment" style="border-color: #FFD166;">มีความร่วมมือกับ National Pingtung University (Taiwan) และส่งเสริมการวิจัยร่วมกับภาคอุตสาหกรรม</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #FFD166;">C3: Co-Creation</p>
+                            <p class="policy-description">ร่วมกันรังสรรค์คุณค่าและนวัตกรรม</p>
+                            <p class="policy-alignment" style="border-color: #FFD166;">นักศึกษาสร้างองค์ความรู้และนวัตกรรมใหม่ผ่านการทำวิทยานิพนธ์และการแก้ปัญหาจริง</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 text-center" style="color: #06D6A0;">การส่งมอบคุณค่า (6P)</h4>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #06D6A0;">P1: People</p>
+                            <p class="policy-description">การนำคุณค่าสู่คน (นักศึกษา, อาจารย์, ชุมชน)</p>
+                            <p class="policy-alignment" style="border-color: #06D6A0;">พัฒนานักศึกษาให้เป็นนวัตกรและผู้เชี่ยวชาญด้าน AI/ML</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #06D6A0;">P2: Process</p>
+                            <p class="policy-description">นวัตกรรมในกระบวนการ (การผลิตบัณฑิต, การบริหาร)</p>
+                            <p class="policy-alignment" style="border-color: #06D6A0;">กระบวนการเรียนการสอนที่เน้นผลลัพธ์ (OBE) และการเรียนรู้เชิงรุก</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #06D6A0;">P3: Product</p>
+                            <p class="policy-description">ผลผลิต (บัณฑิต, งานวิจัย, นวัตกรรม)</p>
+                            <p class="policy-alignment" style="border-color: #06D6A0;">ผลิตบัณฑิตคุณภาพสูง งานวิจัยที่ตีพิมพ์ได้ และนวัตกรรมที่ตอบโจทย์</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #06D6A0;">P4: Place</p>
+                            <p class="policy-description">นวัตกรรมนำคุณค่าสู่พื้นที่ (มหาวิทยาลัย, ชุมชน)</p>
+                            <p class="policy-alignment" style="border-color: #06D6A0;">สร้างสภาพแวดล้อมที่เอื้อต่อการเรียนรู้และนวัตกรรมภายในมหาวิทยาลัย</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #06D6A0;">P5: Partnership</p>
+                            <p class="policy-description">ความร่วมมือกับหน่วยงานต่างๆ</p>
+                            <p class="policy-alignment" style="border-color: #06D6A0;">ความร่วมมือกับ NPTU และภาคอุตสาหกรรมเพื่อเสริมสร้างความเข้มแข็ง</p>
+                        </div>
+                        <div class="policy-card">
+                            <p class="policy-title" style="color: #06D6A0;">P6: Problem Solving/Planet</p>
+                            <p class="policy-description">การแก้ปัญหาและคำนึงถึงสิ่งแวดล้อม (BCG)</p>
+                            <p class="policy-alignment" style="border-color: #06D6A0;">สร้างบัณฑิตที่สามารถแก้ปัญหาซับซ้อนและพัฒนานวัตกรรมที่ยั่งยืน</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="program-highlights" class="my-16">
+            <h2 class="section-title">✨ จุดเด่นและความแตกต่างของหลักสูตร</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">เหตุผลที่เลือกเรียนหลักสูตรนี้:</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>🥇 <span class="font-semibold">เป็นหลักสูตรแรกในไทย</span> ที่มุ่งเน้นเฉพาะด้าน Machine Learning และการประยุกต์ใช้งานจริง</li>
+                        <li>🔄 <span class="font-semibold">โครงสร้างยืดหยุ่น</span> ด้วยแผน ก1 (วิจัยเต็มรูปแบบ) และ แผน ก2 (เรียนรายวิชา+วิจัย)</li>
+                        <li>🧠 <span class="font-semibold">เนื้อหาเข้มข้นทันสมัย</span> เน้น State-of-the-Art Optimization, Deep Learning, Reinforcement Learning, MLOps</li>
+                        <li>🛠️ <span class="font-semibold">ผสมผสานทฤษฎีและการปฏิบัติ</span> (Hands-on) ด้วยเครื่องมือชั้นนำ (TensorFlow, PyTorch)</li>
+                        <li>🔬 <span class="font-semibold">มุ่งเน้นการวิจัยเชิงลึก</span> เหมาะสำหรับผู้ต้องการต่อยอดสู่ ป.เอก หรือนักวิจัยมืออาชีพ</li>
+                    </ul>
+                </div>
+                 <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">เปรียบเทียบกับสถาบันอื่น (โดยสังเขป):</h3>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ประเด็น</th>
+                                    <th class="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" style="color:#FF6B6B;">มทร.ธัญบุรี (CMML)</th>
+                                    <th class="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">สถาบันอื่น (ทั่วไป)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200 text-sm">
+                                <tr>
+                                    <td class="px-3 py-2">การมุ่งเน้น</td>
+                                    <td class="px-3 py-2 font-medium" style="color:#FF6B6B;">เฉพาะทาง ML</td>
+                                    <td class="px-3 py-2">AI, Data Sci, IoT (กว้างกว่า)</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-3 py-2">แผน ก1 (วิจัยเต็ม)</td>
+                                    <td class="px-3 py-2 font-medium" style="color:#FF6B6B;">มี</td>
+                                    <td class="px-3 py-2">ส่วนใหญ่ไม่มี</td>
+                                </tr>
+                                 <tr>
+                                    <td class="px-3 py-2">อัลกอริทึมขั้นสูง</td>
+                                    <td class="px-3 py-2 font-medium" style="color:#FF6B6B;">เน้น Optimization</td>
+                                    <td class="px-3 py-2">เนื้อหาหลากหลาย</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-3 py-2">การเรียนรู้</td>
+                                    <td class="px-3 py-2 font-medium" style="color:#FF6B6B;">Hands-on เข้มข้น</td>
+                                    <td class="px-3 py-2">อาจมี Online learning</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     <p class="mt-3 text-xs text-gray-500">เป็นการสรุปภาพรวมเพื่อแสดงความแตกต่างเบื้องต้น อ้างอิงการเปรียบเทียบกับหลักสูตรของ KMITL, SIIT (Thammasat), CMKL จากเอกสารประกอบ</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculum" class="my-16">
+            <h2 class="section-title">📚 โครงสร้างหลักสูตรและผลลัพธ์ที่คาดหวัง</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">โครงสร้างหน่วยกิต (รวม 36 หน่วยกิต)</h3>
+                    <p class="mb-1"><strong style="color: #06D6A0;">ภาษาที่ใช้:</strong> ภาษาไทยและภาษาอังกฤษ</p>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-md" style="color: #073B4C;">แผน ก แบบ ก1 (ทำเฉพาะวิทยานิพนธ์)</h4>
+                        <ul class="list-disc list-inside text-sm ml-4">
+                            <li>หมวดวิชาพื้นฐาน (ไม่นับหน่วยกิต): 3 หน่วยกิต</li>
+                            <li>หมวดวิชาบังคับ (สัมมนา - ไม่นับหน่วยกิต): 1 หน่วยกิต</li>
+                            <li>วิทยานิพนธ์: 36 หน่วยกิต</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-md" style="color: #073B4C;">แผน ก แบบ ก2 (ศึกษารายวิชาและทำวิทยานิพนธ์)</h4>
+                        <ul class="list-disc list-inside text-sm ml-4">
+                            <li>หมวดวิชาพื้นฐาน (ไม่นับหน่วยกิต): 3 หน่วยกิต</li>
+                            <li>หมวดวิชาบังคับ: 15 หน่วยกิต</li>
+                            <li>หมวดวิชาเลือก: 9 หน่วยกิต</li>
+                            <li>วิทยานิพนธ์: 12 หน่วยกิต</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4 chart-container mx-auto" style="height: 280px; max-width: 350px;">
+                         <canvas id="creditDonutChart"></canvas>
+                    </div>
+                    <p class="text-xs text-center mt-2 text-gray-500">แผนภูมิแสดงสัดส่วนหน่วยกิตสำหรับแผน ก2</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">ผลลัพธ์การเรียนรู้ที่คาดหวัง (PLOs) - ตัวอย่างสำคัญ:</h3>
+                    <ul class="list-disc list-inside space-y-1 text-sm text-gray-700">
+                        <li>เลือกแบบจำลอง ML และใช้กระบวนการคณิตศาสตร์เชิงคำนวณแก้ปัญหาได้</li>
+                        <li>ออกแบบและพัฒนางานวิจัยด้าน ML หรือคณิตศาสตร์เชิงคำนวณ</li>
+                        <li>พัฒนาแนวทางใหม่ในการแก้ปัญหาจริงโดยบูรณาการความรู้</li>
+                        <li>นำเทคโนโลยีสารสนเทศและอัลกอริทึม ML ไปใช้ในการแก้ปัญหาด้วยภาษาโปรแกรม</li>
+                        <li>นำเสนอองค์ความรู้และผลิตผลงานทางวิชาการด้วยจริยธรรม</li>
+                        <li>แสดงคุณธรรม จริยธรรม และความรับผิดชอบในวิชาชีพ</li>
+                        <li>(รวม 10 PLOs หลักตามเอกสารหลักสูตร)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="career-prospects" class="my-16">
+            <h2 class="section-title">🚀 อาชีพหลังสำเร็จการศึกษา</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                บัณฑิตจากหลักสูตรนี้จะมีทักษะและความรู้ที่เป็นที่ต้องการสูง สามารถประกอบอาชีพได้หลากหลายในองค์กรชั้นนำทั้งภาครัฐและเอกชน
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 text-center">
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">🎓</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">นักวิชาการ/นักวิจัย</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">💻</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">นักพัฒนาซอฟต์แวร์ AI</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">🛠️</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">วิศวกรข้อมูล</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">🔬</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">นักวิทยาศาสตร์ข้อมูล</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">📈</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">นักวิเคราะห์ข้อมูล</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">🤖</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">วิศวกรการเรียนรู้ของเครื่อง</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">💡</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">ที่ปรึกษาด้านเทคโนโลยี</p></div>
+                <div class="p-4 card hover:shadow-lg transition-shadow"> <span class="text-3xl">🌐</span> <p class="mt-2 font-semibold text-sm" style="color:#073B4C">อาชีพอื่นๆ ที่เกี่ยวข้อง</p></div>
+            </div>
+        </section>
+
+        <section id="faculty-resources" class="my-16">
+            <h2 class="section-title">👩‍🏫 คณาจารย์และสิ่งสนับสนุนการเรียนรู้</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">คณาจารย์ผู้ทรงคุณวุฒิ (ผู้รับผิดชอบหลักสูตร):</h3>
+                    <ul class="space-y-3 text-gray-700 text-sm">
+                        <li><strong>อ.ดร.รัฐพรหม พรหมคำ</strong> (ประธานหลักสูตร) - Dr.rer.nat. (Mathematik), Universität Würzburg. เชี่ยวชาญด้าน Optimization, Numerical Algorithms.</li>
+                        <li><strong>รศ.ดร.พงศกร สุนทรายุทธ์</strong> - ปร.ด. (คณิตศาสตร์ประยุกต์), มจธ. เชี่ยวชาญด้าน Fixed Point Theory, Optimization.</li>
+                        <li><strong>รศ.ดร.วงศ์วิศรุต เขื่องสตุ่ง</strong> - ปร.ด. (คณิตศาสตร์ประยุกต์), สจล. เชี่ยวชาญด้าน Fixed Point Theory, Variational Inequalities.</li>
+                    </ul>
+                    <p class="mt-3 text-xs text-gray-600">พร้อมด้วยคณาจารย์ประจำหลักสูตรอีก 8 ท่าน และอาจารย์พิเศษผู้เชี่ยวชาญจากภายนอก</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold mb-3" style="color: #118AB2;">สิ่งสนับสนุนการเรียนรู้:</h3>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700 text-sm">
+                        <li>ห้องปฏิบัติการคอมพิวเตอร์ 2 ห้อง (ST1905, ST1908)</li>
+                        <li>ซอฟต์แวร์ทันสมัย: TensorFlow, PyTorch, Scikit-learn, MLflow</li>
+                        <li>ห้องเรียน 3 ห้อง (ST1301, ST1910, ST1911)</li>
+                        <li>ทรัพยากรห้องสมุดและฐานข้อมูลออนไลน์</li>
+                        <li>พื้นที่เรียนรู้ด้วยตนเองและห้องให้คำปรึกษา</li>
+                    </ul>
+                     <img src="https://placehold.co/300x150/06D6A0/FFFFFF?text=Lab+Facilities" alt="ภาพห้องปฏิบัติการ" class="mt-4 rounded-lg w-full h-auto object-cover" onerror="this.src='https://placehold.co/300x150/CCCCCC/000000?text=Image+Error'">
+                </div>
+            </div>
+        </section>
+
+        <section id="collaboration" class="my-16">
+            <h2 class="section-title">🤝 ความร่วมมือระดับนานาชาติ</h2>
+            <div class="card text-center">
+                <img src="https://placehold.co/120x120/FF6B6B/FFFFFF?text=NPTU" alt="NPTU Logo" class="mx-auto mb-4 rounded-md" onerror="this.src='https://placehold.co/120x120/CCCCCC/000000?text=Logo+Error'">
+                <h3 class="text-xl font-semibold mb-2" style="color: #118AB2;">National Pingtung University (NPTU), Taiwan</h3>
+                <p class="text-gray-700 mb-1">College of Computer Science</p>
+                <p class="text-gray-700 font-medium mb-3">โครงการปริญญาโทสองปริญญา (Double Degree Program)</p>
+                <p class="text-sm text-gray-600 max-w-xl mx-auto">
+                    นักศึกษาสามารถเลือกเข้าร่วมโครงการเพื่อรับปริญญาจากทั้งสองสถาบัน:
+                </p>
+                <ul class="list-none space-y-1 text-sm text-gray-600 mt-2 inline-block text-left">
+                    <li><span style="color: #073B4C;">🎓</span> วท.ม. (คณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่อง) จาก มทร.ธัญบุรี</li>
+                    <li><span style="color: #FF6B6B;">🎓</span> วท.ม. (เทคโนโลยีสารสนเทศและการประยุกต์) จาก NPTU, Taiwan</li>
+                </ul>
+                <p class="mt-4 text-xs text-gray-500">เป็นการยกระดับมาตรฐานการศึกษาสู่สากลและส่งเสริมความเป็นนานาชาติ</p>
+            </div>
+        </section>
+        
+        <section id="conclusion" class="my-16 py-12 text-center" style="background-color: #073B4C; color: #FFFFFF; border-radius: 0.5rem;">
+            <h2 class="text-3xl font-bold mb-6">สร้างอนาคตด้วยนวัตกรรม AI และการเรียนรู้ของเครื่อง</h2>
+            <p class="text-lg max-w-3xl mx-auto mb-8 opacity-90">
+                หลักสูตร วท.ม. สาขาวิชาคณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่อง ณ มทร.ธัญบุรี พร้อมแล้วที่จะเป็นส่วนหนึ่งในการพัฒนาศักยภาพของคุณสู่การเป็นผู้เชี่ยวชาญและผู้นำด้านเทคโนโลยีแห่งอนาคต
+            </p>
+            <a href="#" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 px-8 rounded-lg text-lg transition-colors" style="background-color: #FFD166; color: #073B4C;">
+                ดูรายละเอียดเพิ่มเติมและสมัครเรียน
+            </a>
+        </section>
+
+    </div>
+
+    <footer class="text-center p-6 border-t border-gray-200 text-sm text-gray-600">
+        <p>&copy; 2568 คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี</p>
+        <p>หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาคณิตศาสตร์เชิงคำนวณและการเรียนรู้ของเครื่อง</p>
+    </footer>
+
+    <script>
+        function wrapLabels(labels, maxWidth) {
+            return labels.map(label => {
+                if (typeof label === 'string' && label.length > maxWidth) {
+                    const words = label.split(' ');
+                    const lines = [];
+                    let currentLine = '';
+                    words.forEach(word => {
+                        if ((currentLine + word).length > maxWidth && currentLine.length > 0) {
+                            lines.push(currentLine.trim());
+                            currentLine = word + ' ';
+                        } else {
+                            currentLine += word + ' ';
+                        }
+                    });
+                    lines.push(currentLine.trim());
+                    return lines;
+                }
+                return label;
+            });
+        }
+
+        const tooltipTitleCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                              return label.join(' ');
+                            } else {
+                              return label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        const marketDemandCtx = document.getElementById('marketDemandChart').getContext('2d');
+        const marketDemandData = {
+            labels: wrapLabels(['ตำแหน่งงาน AI/ML ที่ขาดแคลนในไทย', 'จำนวนบัณฑิตด้านนี้ที่ผลิตได้ต่อปี'], 16),
+            datasets: [{
+                label: 'จำนวนโดยประมาณ',
+                data: [80000, 500],
+                backgroundColor: [
+                    'rgba(255, 107, 107, 0.6)', 
+                    'rgba(255, 209, 102, 0.6)'
+                ],
+                borderColor: [
+                    '#FF6B6B',
+                    '#FFD166'
+                ],
+                borderWidth: 1
+            }]
+        };
+        new Chart(marketDemandCtx, {
+            type: 'bar',
+            data: marketDemandData,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'จำนวน (คน)' }
+                    }
+                },
+                plugins: {
+                    ...tooltipTitleCallback.plugins,
+                    legend: { display: false },
+                    title: { display: true, text: 'ความต้องการบุคลากร AI/ML ในประเทศไทย' }
+                }
+            }
+        });
+
+        const creditDonutCtx = document.getElementById('creditDonutChart').getContext('2d');
+        const creditDonutData = {
+            labels: wrapLabels(['หมวดวิชาบังคับ (15)', 'หมวดวิชาเลือก (9)', 'วิทยานิพนธ์ (12)'], 16),
+            datasets: [{
+                label: 'สัดส่วนหน่วยกิต (แผน ก2)',
+                data: [15, 9, 12],
+                backgroundColor: [
+                    'rgba(6, 214, 160, 0.7)',
+                    'rgba(17, 138, 178, 0.7)',
+                    'rgba(7, 59, 76, 0.7)'
+                ],
+                borderColor: [
+                    '#06D6A0',
+                    '#118AB2',
+                    '#073B4C'
+                ],
+                hoverOffset: 4
+            }]
+        };
+        new Chart(creditDonutCtx, {
+            type: 'doughnut',
+            data: creditDonutData,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                     ...tooltipTitleCallback.plugins,
+                    legend: { position: 'bottom' },
+                    title: { display: true, text: 'การกระจายหน่วยกิต (แผน ก2 - 36 หน่วยกิต)' }
+                }
+            }
+        });
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const navHeight = document.querySelector('.sticky-nav') ? document.querySelector('.sticky-nav').offsetHeight : 0;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - navHeight - 20; 
+        
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
